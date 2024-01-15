@@ -1,2 +1,4 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
+*.JPG filter=lfs diff=lfs merge=lfs -text
+6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos.html filter=lfs diff=lfs merge=lfs -text
