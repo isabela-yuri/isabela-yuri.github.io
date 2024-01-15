@@ -25,14 +25,14 @@ font-family: Taviraj;
 
 <style type="text/css">
 a{
-font-family: Taviraj;
 font-size: 24px;
+font-family: Taviraj;
 }
 </style>
 
 <style type="text/css">
   .navbar-brand {
-  font-family: Taviraj;
+   font-family: Taviraj;
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
     width:100%; /*width of your image*/
     max-width: 100%;
@@ -48,8 +48,6 @@ font-size: 24px;
 }
 </style>
 
-
-
-### Almost everything is ready for Isabela and Yuri's wedding and we're already counting down!
+### Almost everything is ready for Isabela & Yuri's wedding and we're already counting down!
 ### We hope everything is sensational!
-### For this, it would be excellent if you could fill out the Google form (link below) confirming your presence by the day (to be defined).
+### For this, it would be excellent if you could fill out the Google form (link below) confirming your presence by the day (to be defined)
