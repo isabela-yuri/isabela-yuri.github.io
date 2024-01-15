@@ -40,7 +40,7 @@ position: absolute;
 <style type="text/css">
 a{
 font-family: Taviraj;
-font-size: 20px;
+font-size: 24px;
 }
 </style>
 
@@ -63,7 +63,7 @@ font-size: 20px;
 </style>
 
 ```{r out.width="100%"}
-url <- "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg"
+url <- "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg"
 knitr::include_graphics(url)
 
 ```
