@@ -31,7 +31,7 @@ font-size: 24px;
 
 <style type="text/css">
   .navbar-brand {
-    content:url(imgs/sakura.jpg);
+    content:url(6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
     width:100%; /*width of your image*/
     max-width: 100%;
    height:auto; /*height of your image*/
@@ -59,27 +59,27 @@ font-size: 24px;
 ```{r, echo=F}
 
 paths <- c(
-  "imgs/amigos_velhinhos.jpg",
-  "imgs/Batedeira_Planetaria_Bowl_750W.jpg",
-  "imgs/Chaleira_Eletrica_Gourmand_Gris.jpg",
-  "imgs/controles_remotos.jpg",
-  "imgs/Untitled.jpeg",
-  "imgs/aparelho-de-jantar-42-pecas.jpg",
-  "imgs/capacete.jpg",
-  "imgs/conjunto-de-bowl-em-ceramica-4-pecas.jpg",
-  "imgs/cooktop-eletrico-4-bocas.jpg",
-  "imgs/Aspirador_de_Po_Ciclonico.jpg",
-  "imgs/casal_relaxando.jpg",
-  "imgs/conjunto-de-descascador-de-alimentos.jpg",
-  "imgs/coral_de_casamento.jpg",
-  "imgs/Aspirador_Robo_Keep_Clean.jpg",
-  "imgs/casa_mobiliada.jpg",
-  "imgs/conjunto-de-panela-ferro-fundido-2-pecas.jpg",
-  "imgs/cortador-de-pizza.jpg",
-  "imgs/Assadeira_Retangular_Aluminio_Ecolon.jpg",
-  "imgs/Cesto_de_Roupa_Trama_com_Tampa.jpg",
-  "imgs/conjunto-para-sala-de-jantar-com-mesa-e-4-lugares.jpg",
-  "imgs/dolar.png"
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/amigos_velhinhos.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Batedeira_Planetaria_Bowl_750W.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Chaleira_Eletrica_Gourmand_Gris.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/controles_remotos.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Untitled.jpeg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/aparelho-de-jantar-42-pecas.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/capacete.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/conjunto-de-bowl-em-ceramica-4-pecas.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/cooktop-eletrico-4-bocas.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Aspirador_de_Po_Ciclonico.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/casal_relaxando.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/conjunto-de-descascador-de-alimentos.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/coral_de_casamento.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Aspirador_Robo_Keep_Clean.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/casa_mobiliada.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/conjunto-de-panela-ferro-fundido-2-pecas.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/cortador-de-pizza.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Assadeira_Retangular_Aluminio_Ecolon.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Cesto_de_Roupa_Trama_com_Tampa.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/conjunto-para-sala-de-jantar-com-mesa-e-4-lugares.jpg",
+  "6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/dolar.png"
 )
 
 text <-  c(
@@ -115,7 +115,7 @@ text <-  c(
 
 <!-- ```{css, echo=FALSE} -->
 <!--   body { -->
-<!--    <!-- background-image: url("imgs/Untitled.jpeg"); --> -->
+<!--    <!-- background-image: url("6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/Untitled.jpeg"); --> -->
 <!--   } -->
 <!-- .section.level3 { -->
 <!--   background-color: #f3f3f3; -->

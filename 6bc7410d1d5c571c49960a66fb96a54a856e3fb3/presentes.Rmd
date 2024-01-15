@@ -268,7 +268,7 @@ knitr::include_graphics("imgs/cortador-de-pizza.jpg")
 
 ### Cota "amigos para sempre" 
 ```{r amigos_velhinhos, echo=FALSE, out.width = '80%', fig.align='left'}
-knitr::include_graphics("imgs/amigos_velhinhos.jpg")
+knitr::include_graphics("6bc7410d1d5c571c49960a66fb96a54a856e3fb3imgs/amigos_velhinhos.jpg")
 ```
 
 #### R$ 2.590,41
