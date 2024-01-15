@@ -62,7 +62,12 @@ font-size: 20px;
 }
 </style>
 
-![](fotos/https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg)
+```{r out.width="100%"}
+url <- "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg"
+knitr::include_graphics(url)
+
+```
+
 
 ### Data: 17 de Agosto de 2024 (sábado)
 
