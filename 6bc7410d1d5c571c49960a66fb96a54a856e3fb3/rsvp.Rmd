@@ -1,0 +1,55 @@
+---
+title: "Isabela & Yuri"
+site: distill::distill_website
+---
+----
+
+<style type="text/css">
+h1{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h2{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h3{
+font-family: Taviraj;
+}
+</style>
+
+
+<style type="text/css">
+a{
+font-family: Taviraj;
+font-size: 24px;
+}
+</style>
+
+<style type="text/css">
+  .navbar-brand {
+  font-family: Taviraj;
+    content:url(imgs/sakura.jpg);
+    width:100%; /*width of your image*/
+    max-width: 100%;
+   height:auto; /*height of your image*/
+  }
+}
+</style>
+
+<style type="text/css">
+   .title{
+   font-family: Taviraj;
+   font-size: 0px !important;;
+}
+</style>
+
+
+
+### Almost everything is ready for Isabela and Yuri's wedding and we're already counting down!
+### We hope everything is sensational!
+### For this, it would be excellent if you could fill out the Google form (link below) confirming your presence by the day (to be defined).

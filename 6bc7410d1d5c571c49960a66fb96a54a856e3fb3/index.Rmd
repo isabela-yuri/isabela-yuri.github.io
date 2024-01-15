@@ -1,0 +1,74 @@
+---
+title: "Isabela & Yuri"
+site: distill::distill_website
+---
+----
+
+<style type="text/css">
+h1{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h2{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h3{
+font-family: Taviraj;
+}
+</style>
+
+
+<style type="text/css">
+a{
+font-family: Taviraj;
+font-size: 24px;
+}
+</style>
+
+<style type="text/css">
+.navbar-fixed-top{
+font-family: Taviraj;
+position: absolute;
+}
+</style>
+
+<style type="text/css">
+a{
+font-family: Taviraj;
+font-size: 20px;
+}
+</style>
+
+
+<style type="text/css">
+  .navbar-brand {
+  font-family: Taviraj;
+    content:url(imgs/sakura.jpg);
+    width:100%; /*width of your image*/
+    max-width: 100%;
+   height:auto; /*height of your image*/
+  }
+</style>
+
+<style type="text/css">
+   .title{
+   font-family: Taviraj;
+   font-size: 0px !important;;
+}
+</style>
+
+![](fotos/DSC04357.jpg)
+
+### Data: 17 de Agosto de 2024 (sábado)
+
+### Local: Clube do Congresso, SHIN QI, 16, Área Especial, Lago Norte, Brasília - DF, 71530-200, Brasil
+
+### Horário: TBD 
+<!-- Entrada a partir das 15:45, início as 16:00 e encerramento as 23:45. -->
+
+### Por favor confirme sua presença até (TBD)!

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Isabela &amp; Yuri</title>
+
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Casamento de Isabela & Yuri</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="presenca.html">Presença</a>
+</li>
+<li>
+  <a href="rsvp.html">Attendance confirmation</a>
+</li>
+<li>
+  <a href="presentes.html">Lista de Presentes</a>
+</li>
+<li>
+  <a href="fotos.html">Álbum de fotos/Photo album</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Isabela &amp; Yuri</h1>
+
+</div>
+
+
+<hr />
+<style type="text/css">
+h1{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h2{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h3{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h4{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+.navbar-fixed-top{
+font-family: Taviraj;
+position: absolute;
+}
+</style>
+<style type="text/css">
+a{
+font-family: Taviraj;
+font-size: 24px;
+}
+</style>
+<style type="text/css">
+  .navbar-brand {
+  font-family: Taviraj;
+    content:url(imgs/sakura.jpg);
+    width:100%; /*width of your image*/
+    max-width: 100%;
+   height:auto; /*height of your image*/
+  }
+}
+</style>
+<style type="text/css">
+   .title{
+   font-family: Taviraj;
+   font-size: 0px !important;;
+}
+</style>
+<style type="text/css">
+.section level3{
+height: 100% !important;
+  margin: 0 auto 50px;
+  color: #333;
+  border-radius: 16px;
+  box-shadow: 0px 10px 15px rgba(93,117,141,0.1);
+  background-color: #fff;
+  border: 0.651px solid #dde7f1;
+  max-width: 240px;
+    padding: 16px;
+}
+</style>
+<div id="os-presentes-são-genéricos-e-se-quiser-dar-algo-específico-pergunte-ao-casal." class="section level3">
+<h3>Os presentes são genéricos e se quiser dar algo específico pergunte ao casal.</h3>
+<div>
+
+<div style="width: 50%; float: left">
+<h3 id="ajuda-para-a-aposentadoria-dos-noivos">Ajuda para a aposentadoria dos noivos</h3>
+<p><img src="imgs/casal_relaxando.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-3.10849">R$ 3.108,49</h4>
+<h4 id="chave-pix-no-topo-da-página">Chave pix no topo da página</h4>
+<h3 id="ajuda-para-mobiliar-a-casa">Ajuda para mobiliar a casa</h3>
+<p><img src="imgs/casa_mobiliada.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-1.03616">R$ 1.036,16</h4>
+<h4 id="chave-pix-no-topo-da-página-1">Chave pix no topo da página</h4>
+<h3 id="ajuda-para-os-noivos-comprarem-dólares-pra-viagem">Ajuda para os noivos comprarem dólares pra viagem</h3>
+<p><img src="imgs/dolar.png" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-46627">R$ 466,27</h4>
+<h4 id="chave-pix-no-topo-da-página-2">Chave pix no topo da página</h4>
+<h3 id="aparelho-de-jantar">Aparelho de Jantar</h3>
+<p><img src="imgs/aparelho-de-jantar-42-pecas.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r37302">R$373,02</h4>
+<h4 id="chave-pix-no-topo-da-página-3">Chave pix no topo da página</h4>
+<h3 id="aspirador-de-pó-ciclônico-2-em-1-vertical-1200w">Aspirador de Pó Ciclônico 2 em 1 Vertical 1200W</h3>
+<p><img src="imgs/Aspirador_de_Po_Ciclonico.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-24868">R$ 248,68</h4>
+<h4 id="chave-pix-no-topo-da-página-4">Chave pix no topo da página</h4>
+<h3 id="aspirador-robo-keep-clean">Aspirador Robo Keep Clean</h3>
+<p><img src="imgs/Aspirador_Robo_Keep_Clean.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r1.50243">R$1.502,43</h4>
+<h3 id="assadeira-retangular-alumínio-ecolon-43-cm-x-21-cm">Assadeira Retangular Alumínio Ecolon 43 cm x 21 cm</h3>
+<p><img src="imgs/Assadeira_Retangular_Aluminio_Ecolon.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-26837">R$ 268,37</h4>
+<h4 id="chave-pix-no-topo-da-página-5">Chave pix no topo da página</h4>
+<h3 id="conjunto-de-panelas">Conjunto de panelas</h3>
+<p><img src="imgs/conjunto-de-panela-ferro-fundido-2-pecas.jpg" width="80%" style="display: block; margin: auto;" /></p>
+<h4 id="r-25904">R$ 259,04</h4>
+<h4 id="chave-pix-no-topo-da-página-6">Chave pix no topo da página</h4>
+<h3 id="conjunto-para-sala-de-jantar">Conjunto para sala de jantar</h3>
+<p><img src="imgs/conjunto-para-sala-de-jantar-com-mesa-e-4-lugares.jpg" width="80%" style="display: block; margin: auto 0 auto auto;" /></p>
+<h4 id="r-72531">R$ 725,31</h4>
+<h4 id="chave-pix-no-topo-da-página-7">Chave pix no topo da página</h4>
+<h3 id="cooktop-elétrico">Cooktop elétrico</h3>
+<p><img src="imgs/cooktop-eletrico-4-bocas.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-2.69402">R$ 2.694,02</h4>
+<h4 id="chave-pix-no-topo-da-página-8">Chave pix no topo da página</h4>
+<h3 id="coral-pra-cantar-aleluia-na-entrada-do-noivo">Coral pra cantar “Aleluia” na entrada do noivo</h3>
+<p><img src="imgs/coral_de_casamento.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-56989">R$ 569,89</h4>
+<h4 id="chave-pix-no-topo-da-página-9">Chave pix no topo da página</h4>
+</div>
+<div style="width: 50%; float: left">
+<h3 id="batedeira-planetária-bowl-750w">Batedeira Planetária Bowl 750W</h3>
+<p><img src="imgs/Batedeira_Planetaria_Bowl_750W.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-51290">R$ 512,90</h4>
+<h4 id="chave-pix-no-topo-da-página-10">Chave pix no topo da página</h4>
+<h3 id="capacete-contra-rolo-de-macarrão-para-o-noivo">Capacete contra rolo de macarrão para o noivo</h3>
+<p><img src="imgs/capacete.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-16579">R$ 165,79</h4>
+<h4 id="chave-pix-no-topo-da-página-11">Chave pix no topo da página</h4>
+<h3 id="cesto-de-roupa-trama-com-tampa-e-rodízios">Cesto de Roupa Trama com Tampa e Rodízios</h3>
+<p><img src="imgs/Cesto_de_Roupa_Trama_com_Tampa.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-32639">R$ 326,39</h4>
+<h4 id="chave-pix-no-topo-da-página-12">Chave pix no topo da página</h4>
+<h3 id="chaleira-elétrica-gourmand-gris-18l">Chaleira Elétrica Gourmand Gris 1,8L</h3>
+<p><img src="imgs/Chaleira_Eletrica_Gourmand_Gris.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-46627-1">R$ 466,27</h4>
+<h4 id="chave-pix-no-topo-da-página-13">Chave pix no topo da página</h4>
+<h3 id="conjunto-de-bowl">Conjunto de bowl</h3>
+<p><img src="imgs/conjunto-de-bowl-em-ceramica-4-pecas.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-35644">R$ 356,44</h4>
+<h4 id="chave-pix-no-topo-da-página-14">Chave pix no topo da página</h4>
+<h3 id="conjunto-de-controle-remotos-para-não-ter-briga">Conjunto de controle remotos para não ter briga</h3>
+<p><img src="imgs/controles_remotos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-15542">R$ 155,42</h4>
+<h4 id="chave-pix-no-topo-da-página-15">Chave pix no topo da página</h4>
+<h3 id="conjunto-de-descascador-de-alimentos">Conjunto de descascador de alimentos</h3>
+<p><img src="imgs/conjunto-de-descascador-de-alimentos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-8279">R$ 82,79</h4>
+<h4 id="chave-pix-no-topo-da-página-16">Chave pix no topo da página</h4>
+<h3 id="cortador-de-pizza">Cortador de pizza</h3>
+<p><img src="imgs/cortador-de-pizza.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-3212">R$ 32,12</h4>
+<h4 id="chave-pix-no-topo-da-página-17">Chave pix no topo da página</h4>
+<h3 id="cota-amigos-para-sempre">Cota “amigos para sempre”</h3>
+<p><img src="imgs/amigos_velhinhos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-2.59041">R$ 2.590,41</h4>
+<h4 id="chave-pix-no-topo-da-página-18">Chave pix no topo da página</h4>
+<h3 id="edredon">edredon</h3>
+<p><img src="imgs/amigos_velhinhos.jpg" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<h4 id="r-2.59041-1">R$ 2.590,41</h4>
+<h4 id="chave-pix-no-topo-da-página-19">Chave pix no topo da página</h4>
+</div>
+<div style="width: 50%; float: left">
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
