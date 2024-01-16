@@ -74,7 +74,7 @@ paths <- c(
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5573.JPG",
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5651.JPG",
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5715.JPG",
-  "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5792.JPG",
+  "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.iomain/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5792.JPG",
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg",
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04554.jpg",
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5173.JPG",
@@ -88,6 +88,11 @@ paths <- c(
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG"
 )
 
-slickR(obj=paths, height = "50%", width = "50%") +
-  settings(dots = TRUE, autoplay = TRUE, adaptiveHeight = TRUE, mobileFirst = TRUE)
+cP1 <- htmlwidgets::JS("function(slick,index) {
+                            return '<a>'+(index+1)+'</a>';
+                       }")
+
+
+slickR(obj=paths, height = "100%", width = NULL) +
+  settings(dots = TRUE, autoplay = TRUE, adaptiveHeight = TRUE, mobileFirst = TRUE,    customPaging = cP1)
 ```
