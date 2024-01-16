@@ -58,6 +58,10 @@ position: absolute;
 </style>
 
 
+</br>
+
+
+<div class = "fotos">
 
 ```{r, echo=F}
 
@@ -86,6 +90,7 @@ paths <- c(
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG"
 )
 
-slickR(obj=paths)+
-  settings(dots = TRUE, autoplay = TRUE, adaptiveHeight = TRUE)
+slickR(obj=paths, padding = 3)+
+  settings(dots = TRUE, autoplay = TRUE, adaptiveHeight = TRUE, mobileFirst = TRUE)
 ```
+</div>
