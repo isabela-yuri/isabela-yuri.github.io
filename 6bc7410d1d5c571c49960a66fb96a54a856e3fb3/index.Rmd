@@ -25,6 +25,7 @@ font-family: Taviraj;
 <style type="text/css">
 h3{
 font-family: Taviraj;
+</br>
 }
 </style>
 
@@ -37,7 +38,7 @@ font-size: 24px;
 
 <style type="text/css">
 .navbar-fixed-top{
-position: absolute;
+position: fixed;
 }
 </style>
 
@@ -58,20 +59,16 @@ position: absolute;
 </style>
 
 
-</br>
+<div>
+<br/>
+<br/>
 
-
-
-```{r, echo=F}
-
-paths <- c(
-  "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg"
-)
-
-
-slickR(obj=paths, height = "100%", width = NULL) +
-  settings( mobileFirst = TRUE, arrows = F)
+```{r Simon, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg")
 ```
+
+
+</div>
 
 ### Data: 17 de Agosto de 2024 (sábado)
 

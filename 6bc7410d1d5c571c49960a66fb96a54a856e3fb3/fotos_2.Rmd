@@ -37,13 +37,14 @@ font-size: 24px;
 
 <style type="text/css">
 .navbar-fixed-top{
-position: absolute;
+position: fixed;
 }
 </style>
 
 <style type="text/css">
   .navbar-brand {
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
+    margin-top: -100px;
     width:100%; /*width of your image*/
     max-width: 100%;
    height:auto; /*height of your image*/
@@ -57,8 +58,10 @@ position: absolute;
 }
 </style>
 
+<div>
+<br/>
+<br/>
 
-</br>
 
 
 ```{r, echo=F}
@@ -94,5 +97,7 @@ cP1 <- htmlwidgets::JS("function(slick,index) {
 
 
 slickR(obj=paths, height = "100%", width = NULL) +
-  settings(dots = TRUE, autoplay = TRUE, adaptiveHeight = TRUE, mobileFirst = TRUE,    customPaging = cP1)
+  settings(dots = FALSE, autoplay = FALSE, adaptiveHeight = TRUE, customPaging = cP1)
 ```
+
+</div>
