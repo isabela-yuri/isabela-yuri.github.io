@@ -65,6 +65,10 @@ padding: 3px;
 }
 </style>
 
+<div class="row">
+    <div class="col-12"<style scoped> display: block;  position: absolute;
+    width: 100%;
+    left: 0;</style>>
 
 ```{r, echo=F}
 
@@ -99,20 +103,22 @@ paths2 <- c(
 )
 
 
-slickR(obj=paths0, height = "4%", objLinks = paths0) +
+slickR(obj=paths0, height = "4%", width = "4%", objLinks = paths0) +
   settings(slidesPerRow = 4, slidesToShow = 4,arrows = FALSE)
 
 
-slickR(obj=paths1[1:4], height = "26%", objLinks = paths1[1:4]) +
+slickR(obj=paths1[1:4], height = "26%", width = "4%",objLinks = paths1[1:4]) +
   settings(slidesPerRow = 4, slidesToShow = 4,arrows = FALSE)
 
 
-slickR(obj=paths1[5:8], height = "66%", objLinks = paths1[5:8]) +
+slickR(obj=paths1[5:8], height = "66%", width = "4%",objLinks = paths1[5:8]) +
   settings(slidesPerRow = 4, slidesToShow = 4,arrows = FALSE)
 
-slickR(obj=paths2[1:5], height = "66%", objLinks = paths2[1:5]) +
+slickR(obj=paths2[1:5], height = "66%", width = "4%",objLinks = paths2[1:5]) +
   settings(slidesPerRow = 5, slidesToShow = 5,arrows = FALSE)
 
-slickR(obj=paths2[6:10], height = "106%",objLinks = paths2[6:10]) +
+slickR(obj=paths2[6:10], height = "106%", width = "4%", objLinks = paths2[6:10]) +
   settings(slidesPerRow = 5, slidesToShow = 5,arrows = FALSE)
 ```
+    </div>
+</div>
