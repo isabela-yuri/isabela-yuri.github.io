@@ -2,8 +2,6 @@
 title: "Isabela & Yuri"
 site: distill::distill_website
 ---
-</br>
-----
 
 <style type="text/css">
 .slick-initialized .slick-slide {
@@ -25,8 +23,16 @@ font-family: Taviraj;
 
 <style type="text/css">
 h3{
+text-align: center;
 font-family: Taviraj;
-</br>
+}
+</style>
+
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
 }
 </style>
 
@@ -41,6 +47,7 @@ font-family: Taviraj;
 <style type="text/css">
 .navbar-fixed-top{
 position: fixed;
+z-index: 2;
 }
 </style>
 
@@ -56,25 +63,32 @@ position: fixed;
 
 <style type="text/css">
    .title{
-   font-size: 0px !important;;
+   font-size: 0px !important;
 }
 </style>
-
 
 <style type="text/css">
-img{
-padding: 3px;
+   .my_text{
+   text-align: center;
+   font-family: Taviraj;
 }
 </style>
 
-<style  type="text/css">
-.col-12 display: block;
-position: fixed;
-width: 100%;
-left: 0;
+<style type="text/css">
+   img{
+   padding: 3px;
+   z-index: 1;
+   position: relative;
+}
 </style>
 
-</br>
+<style type="text/css">
+   .first_row{
+   padding-top: 40%;
+}
+</style>
+
+
 
 ```{r, echo = FALSE}
 # Set up the hook
@@ -82,8 +96,8 @@ knit_hooks$set(optipng = hook_optipng)
 knit_hooks$set(pngquant = hook_pngquant)
 ```
 
-<center>
-<!-- <div> -->
+
+<div class = "first_row">
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
@@ -95,7 +109,7 @@ image_link <- function(image,url,...){
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04476.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04476.jpg")
 ```
 
-```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7', ut.extra='style="margin:20%; display: inline-block;"'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
@@ -106,7 +120,7 @@ image_link <- function(image,url,...){
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg")
 ```
 
-```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7', ut.extra='style="margin:20%; display: inline-block;"'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
@@ -116,6 +130,8 @@ image_link <- function(image,url,...){
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04554.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04554.jpg")
 ```
+
+
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
@@ -151,67 +167,75 @@ image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.
 ```
 
 
+
+
+
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='33%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5499.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5499.JPG")
 ```
 
-```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+
+
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='33%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5533.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5533.JPG")
 ```
 
-```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+
+
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='33%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5595.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5595.JPG")
 ```
 
-
-```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5676.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5676.JPG")
 ```
 
-```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+
+
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5509.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5509.JPG")
 ```
 
-```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
@@ -219,103 +243,113 @@ image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.
 ```
 
 
+
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5651.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5651.JPG")
 ```
 
-```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5212.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5212.JPG")
 ```
 
+
+
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5325.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5325.JPG")
 ```
 
-```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5474.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5474.JPG")
 ```
 
+
+
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5715.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5715.JPG")
 ```
 
-```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5792.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5792.JPG")
 ```
 
+
+
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5173.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5173.JPG")
 ```
 
-```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5778.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5778.JPG")
 ```
 
+
+
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
-    htmltools::img(src=image,width='49%',...),
+    htmltools::img(src=image,width='48%',...),
     target="_blank"
     )
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG")
 ```
-<!-- </div> -->
-</center>
+
+
+</div>
