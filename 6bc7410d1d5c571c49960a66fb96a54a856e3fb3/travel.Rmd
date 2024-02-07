@@ -85,7 +85,7 @@ font-family: Taviraj;
 #### Check this Brazilian consulate general website for a comprehensive list:
 #### [https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country](https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country){target="_blank"}
 
-#### I seems that applications for visas can only be completed through Brazil’s E-consular platform. 
+#### It seems that applications for visas can only be completed through Brazil’s E-consular platform. 
 #### It is advised to apply for your visa well in advance of your trip in case there are system delays.
 #### [https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-form](https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-form){target="_blank"}
 
