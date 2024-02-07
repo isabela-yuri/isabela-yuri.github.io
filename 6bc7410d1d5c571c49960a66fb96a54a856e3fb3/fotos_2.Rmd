@@ -57,6 +57,7 @@ z-index: 2;
     width:100%; /*width of your image*/
     max-width: 100%;
    height:auto; /*height of your image*/
+   padding = 0;
   }
 }
 </style>
@@ -82,12 +83,6 @@ z-index: 2;
 }
 </style>
 
-<style type="text/css">
-   .first_row{
-   padding-top: 40%;
-}
-</style>
-
 
 
 ```{r, echo = FALSE}
@@ -97,7 +92,7 @@ knit_hooks$set(pngquant = hook_pngquant)
 ```
 
 
-<div class = "first_row">
+<div>
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
