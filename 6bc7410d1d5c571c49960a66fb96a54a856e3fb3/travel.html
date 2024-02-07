@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Isabela &amp; Yuri</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Casamento de Isabela & Yuri</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="presenca.html">Presença/Attendance</a>
+</li>
+<li>
+  <a href="casamento.html">O Casamento/The Wedding</a>
+</li>
+<li>
+  <a href="rsvp.html">Sobre Nós/Our Story</a>
+</li>
+<li>
+  <a href="presentes.html">Lista de Presentes</a>
+</li>
+<li>
+  <a href="travel.html">Travel</a>
+</li>
+<li>
+  <a href="fotos_2.html">Fotos/Photos</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Isabela &amp; Yuri</h1>
+
+</div>
+
+
+<hr />
+<style type="text/css">
+.slick-initialized .slick-slide {
+    padding: 0;
+}
+</style>
+<style type="text/css">
+h1{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h2{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h3{
+text-align: center;
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
+}
+</style>
+<style type="text/css">
+a{
+font-size: 17px;
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+.navbar-fixed-top{
+position: fixed;
+}
+</style>
+<style type="text/css">
+  .navbar-brand {
+    content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
+    width:100%; /*width of your image*/
+    max-width: 100%;
+   height:auto; /*height of your image*/
+  }
+}
+</style>
+<style type="text/css">
+   .title{
+   font-size: 0px !important;
+}
+</style>
+<div>
+<style type="text/css">
+p{
+font-size: 23px;
+font-family: Taviraj;
+}
+</style>
+<div id="visa-requirements" class="section level3">
+<h3>VISA REQUIREMENTS</h3>
+<div
+id="for-those-coming-from-abroad-to-celebrate-with-us-please-check-your-countrys-visa-requirements."
+class="section level4">
+<h4>For those coming from abroad to celebrate with us please check your
+country’s visa requirements.</h4>
+</div>
+<div
+id="check-this-brazilian-consulate-general-website-for-a-comprehensive-list"
+class="section level4">
+<h4>Check this Brazilian consulate general website for a comprehensive
+list:</h4>
+</div>
+<div
+id="httpswww.gov.brmrept-brconsulado-atlantaenglishvisasvisa-requirements-by-country"
+class="section level4">
+<h4><a
+href="https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country"
+target="_blank">https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country</a></h4>
+</div>
+<div
+id="i-seems-that-applications-for-visas-can-only-be-completed-through-brazils-e-consular-platform."
+class="section level4">
+<h4>I seems that applications for visas can only be completed through
+Brazil’s E-consular platform.</h4>
+</div>
+<div
+id="it-is-advised-to-apply-for-your-visa-well-in-advance-of-your-trip-in-case-there-are-system-delays."
+class="section level4">
+<h4>It is advised to apply for your visa well in advance of your trip in
+case there are system delays.</h4>
+</div>
+<div id="httpswww.gov.brmrept-brconsulado-atlantaenglishvisasvisa-form"
+class="section level4">
+<h4><a
+href="https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-form"
+target="_blank">https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-form</a></h4>
+<hr />
+</div>
+</div>
+<div id="flying-in-to-brazil" class="section level3">
+<h3>FLYING IN TO BRAZIL</h3>
+<div
+id="if-you-are-arriving-directly-to-brasilia-you-will-arrive-at-brasilia-president-juscelino-kubitschek-international-airport-bsb."
+class="section level4">
+<h4>If you are arriving directly to Brasilia, you will arrive at
+Brasilia President Juscelino Kubitschek International Airport
+(BSB).</h4>
+</div>
+<div
+id="if-you-are-arriving-directly-to-sao-paulo-you-will-likely-arrive-at-guarulhos-international-airport-gru."
+class="section level4">
+<h4>If you are arriving directly to Sao Paulo, you will likely arrive at
+Guarulhos International Airport (GRU).</h4>
+</div>
+<div
+id="you-can-take-a-taxi-uber-or-public-transportation-from-the-airport-to-get-to-the-city."
+class="section level4">
+<h4>You can take a taxi, Uber, or public transportation from the airport
+to get to the city.</h4>
+</div>
+<div
+id="you-can-use-research-destination-tools-such-as-expedia-booking-skyscanner-get-your-guide-trip-advisor-and-google-tools-google-maps-have-a-lot-of-information-as-well."
+class="section level4">
+<h4>You can use research destination tools such as Expedia, Booking,
+Skyscanner, Get Your Guide, Trip Advisor, and Google tools (Google Maps
+have a lot of information as well).</h4>
+<hr />
+</div>
+</div>
+<div id="getting-around" class="section level3">
+<h3>GETTING AROUND</h3>
+<div
+id="the-easiest-way-around-brazilian-cities-is-uber.-it-is-an-easy-way-to-overcome-the-challenges-of-the-language-barrier."
+class="section level4">
+<h4>The easiest way around Brazilian cities is Uber. It is an easy way
+to overcome the challenges of the language barrier.</h4>
+</div>
+<div
+id="when-requesting-an-uber-look-at-the-number-of-rides-a-driver-has-given-in-their-profile.-it-is-recommended-to-avoid-drivers-with-low-numbers-of-rides.-uber-black-drivers-tend-to-meet-these-criteria-better-than-others-and-due-to-the-strength-of-the-us-dollar-it-is-affordable."
+class="section level4">
+<h4>When requesting an Uber, look at the number of rides a driver has
+given in their profile. It is recommended to avoid drivers with low
+numbers of rides. Uber Black drivers tend to meet these criteria better
+than others, and due to the strength of the US Dollar, it is
+affordable.</h4>
+<hr />
+</div>
+</div>
+<div id="words-about-security" class="section level3">
+<h3>WORDS ABOUT SECURITY</h3>
+<div
+id="while-most-have-few-issues-in-a-city-like-brasilia-crime-still-exists.-here-are-a-few-general-security-things-to-keep-in-mind-once-you-leave-the-airport"
+class="section level4">
+<h4>While most have few issues in a city like Brasilia, crime still
+exists. Here are a few general security things to keep in mind once you
+leave the airport:</h4>
+<ul>
+<li><p>When traveling through the city, it is recommended to use the
+buddy system. Traveling with someone else makes you less attractive as a
+target.</p></li>
+<li><p>Especially in busy or touristy areas, be cautious of your
+belongings. A good practice is to have bags that zip up and keep them in
+front of you to avoid pick pocketing.</p></li>
+<li><p>Smartphones are a desirable target for petty crime due to their
+size and value. Avoid walking on the street and looking down at your
+phone, as it makes you vulnerable. To keep you safe, take the simple
+precautions of walking inside a shop or building if you need to use your
+phone.</p></li>
+<li><p>Common theft schemes include groups, bicycles, and even children.
+Especially in urban areas, thieves work in groups to misdirect or
+escape. This can include one distracting you and the other
+pickpocketing. Someone riding a bicycle may also try to grab your phone,
+so again, stay away from the street with your phone.</p></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="traveling-around-brazil" class="section level3">
+<h3>TRAVELING AROUND BRAZIL</h3>
+<div
+id="if-you-have-the-opportunity-to-stay-in-brazil-beyond-the-wedding-weekend-a-few-travel-considerations"
+class="section level4">
+<h4>If you have the opportunity to stay in Brazil beyond the wedding
+weekend, a few travel considerations:</h4>
+<ol style="list-style-type: decimal">
+<li><p>Flights are the easiest transportation method to travel in this
+huge country. Flights connect major tourist destinations like Rio de
+Janeiro, Sao Paulo, Brasilia, and Recife.</p></li>
+<li><p>If you choose to drive, highways in Brazil have speed cameras
+every so often. If you turn on Waze, they will appear on the maps. It is
+common for drivers to accelerate after the cameras and brake quickly
+before them. Please be careful to avoid fines.</p></li>
+<li><p>Ethanol gas is common and cheap in Brazilian gas stations. If you
+rent a car, make sure your car can accept ethanol fuel.</p></li>
+</ol>
+<hr />
+</div>
+</div>
+<div id="some-nice-destinations" class="section level3">
+<h3>SOME NICE DESTINATIONS</h3>
+<div id="brasília-capital-of-brazil" class="section level4">
+<h4>Brasília (Capital of Brazil)</h4>
+</div>
+<div
+id="designed-from-scratch-to-be-the-capital-of-brazil-the-city-has-several-architectural-buildings.-the-city-has-the-shape-of-an-airplane-and-the-government-buildings-are-located-in-the-flight-deck."
+class="section level4">
+<h4>Designed from scratch to be the capital of Brazil, the city has
+several architectural buildings. The city has the shape of an airplane,
+and the government buildings are located in the flight deck.</h4>
+<p>More Info: <a
+href="https://www.tripadvisor.com/Attractions-g303322-Activities-oa0-Brasilia_Federal_District.html"
+target="_blank">https://www.tripadvisor.com/Attractions-g303322-Activities-oa0-Brasilia_Federal_District.html</a></p>
+</div>
+<div id="there-are-many-other-beautiful-places-to-visit-in-brazil."
+class="section level4">
+<h4>There are many other beautiful places to visit in Brazil.</h4>
+</div>
+<div id="rio-de-janeiro-city" class="section level4">
+<h4>Rio de Janeiro City</h4>
+</div>
+<div
+id="the-most-famous-destination-in-brazil-it-is-approximately-1h-flight-from-são-paulo-city.-we-recommend-you-to-stay-in-ipanema-or-copacabana-neighborhoods.-avoid-driving-in-rio-unless-you-will-be-driving-to-leave-the-city.-the-rich-neighborhoods-are-right-next-the-favelas-which-makes-it-dangerous."
+class="section level4">
+<h4>The most famous destination in Brazil, it is approximately 1h flight
+from São Paulo city. We recommend you to stay in Ipanema or Copacabana
+neighborhoods. Avoid driving in Rio, unless you will be driving to leave
+the city. The rich neighborhoods are right next the favelas, which makes
+it dangerous.</h4>
+<p>More Info: <a
+href="https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
+target="_blank">https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html</a></p>
+</div>
+<div id="iguazu-falls" class="section level4">
+<h4>Iguazu Falls</h4>
+</div>
+<div
+id="iguazu-falls-are-waterfalls-of-the-iguazu-river-on-the-border-with-argentina.-those-falls-are-the-largest-waterfall-system-in-the-world."
+class="section level4">
+<h4>Iguazu Falls are waterfalls of the Iguazu River on the border with
+Argentina. Those falls are the largest waterfall system in the
+world.</h4>
+</div>
+<div
+id="more-info-httpswww.tripadvisor.comattraction_review-g303444-d312332-reviews-iguazu_falls-foz_do_iguacu_state_of_parana.html"
+class="section level4">
+<h4>More Info: <a
+href="https://www.tripadvisor.com/Attraction_Review-g303444-d312332-Reviews-Iguazu_Falls-Foz_do_Iguacu_State_of_Parana.html"
+target="_blank">https://www.tripadvisor.com/Attraction_Review-g303444-d312332-Reviews-Iguazu_Falls-Foz_do_Iguacu_State_of_Parana.html</a></h4>
+</div>
+<div id="capitolio-minas-gerais-state" class="section level4">
+<h4>Capitolio, Minas Gerais State</h4>
+</div>
+<div
+id="a-place-for-the-ones-who-enjoy-outdoor-activities.-in-order-to-get-there-it-is-possible-to-drive-from-são-paulo-or-take-a-flight-to-belo-horizonte-minas-gerais-capital."
+class="section level4">
+<h4>A place for the ones who enjoy outdoor activities. In order to get
+there, it is possible to drive from São Paulo or take a flight to Belo
+Horizonte (Minas Gerais’ capital).</h4>
+</div>
+<div
+id="more-info-httpstriptripnow.comecotourism-brazil-capitolio-minasgerais"
+class="section level4">
+<h4>More Info: <a
+href="https://triptripnow.com/ecotourism-brazil-capitolio-minasgerais/"
+target="_blank">https://triptripnow.com/ecotourism-brazil-capitolio-minasgerais/</a></h4>
+</div>
+<div id="northeast-beaches-of-brazil" class="section level4">
+<h4>Northeast Beaches of Brazil</h4>
+</div>
+<div
+id="although-it-is-going-to-be-winter-in-brazil-the-northeast-region-is-always-warm.-most-of-the-beaches-there-are-beautiful-you-can-research-destinations-such-as"
+class="section level4">
+<h4>Although it is going to be winter in Brazil, the Northeast region is
+always warm. Most of the beaches there are beautiful, you can research
+destinations such as:</h4>
+<ul>
+<li><p>Salvador, Bahia state</p></li>
+<li><p>Aracaju, Sergipe state</p></li>
+<li><p>Maceió, Alagoas state</p></li>
+<li><p>Maragogi, Alagoas state</p></li>
+<li><p>Recife, Pernambuco state</p></li>
+<li><p>Natal, Rio Grande do Norte state</p></li>
+<li><p>Fortaleza, Ceará state</p></li>
+<li><p>Jericoacoara, Ceará state</p></li>
+</ul>
+</div>
+<div
+id="since-the-colonization-of-brazil-started-in-the-area-besides-the-beaches-it-is-possible-to-sightsee-historical-buildings-and-museums."
+class="section level4">
+<h4>Since the colonization of Brazil started in the area, besides the
+beaches, it is possible to sightsee historical buildings and
+museums.</h4>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

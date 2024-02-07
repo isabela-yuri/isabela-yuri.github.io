@@ -2,8 +2,13 @@
 title: "Isabela & Yuri"
 site: distill::distill_website
 ---
-
 ----
+
+<style type="text/css">
+.slick-initialized .slick-slide {
+    padding: 0;
+}
+</style>
 
 <style type="text/css">
 h1{
@@ -19,35 +24,35 @@ font-family: Taviraj;
 
 <style type="text/css">
 h3{
+text-align: center;
 font-family: Taviraj;
 }
 </style>
-
 
 <style type="text/css">
 h4{
 font-family: Taviraj;
+text-align: center;
+font-size: 23px;
 }
 </style>
 
-
-<style type="text/css">
-.navbar-fixed-top{
-font-family: Taviraj;
-position: absolute;
-}
-</style>
 
 <style type="text/css">
 a{
+font-size: 17px;
 font-family: Taviraj;
-font-size: 24px;
+}
+</style>
+
+<style type="text/css">
+.navbar-fixed-top{
+position: fixed;
 }
 </style>
 
 <style type="text/css">
   .navbar-brand {
-  font-family: Taviraj;
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
     width:100%; /*width of your image*/
     max-width: 100%;
@@ -58,31 +63,33 @@ font-size: 24px;
 
 <style type="text/css">
    .title{
-   font-family: Taviraj;
-   font-size: 0px !important;;
+   font-size: 0px !important;
 }
 </style>
-
 
 <style type="text/css">
-.section level3{
-height: 100% !important;
-  margin: 0 auto 50px;
-  color: #333;
-  border-radius: 16px;
-  box-shadow: 0px 10px 15px rgba(93,117,141,0.1);
-  background-color: #fff;
-  border: 0.651px solid #dde7f1;
-  max-width: 240px;
-    padding: 16px;
+   .my_text{
+   text-align: center;
+   font-family: Taviraj;
 }
 </style>
 
+<div>
 
+### Caso queira nos dar algum presente, gostaríamos de pedir que ele seja dado em forma de dinheiro, por favor.
 
+</br>
 
+### Como precisaremos viajar ao Brasil para a casamento e ainda não temos uma moradia fixa, pedimos encarecidamente que evitem presentes em forma de objetos.
 
-### Os presentes são genéricos e se quiser dar algo específico pergunte ao casal.
+</br>
 
+### O valor presenteado será usado para nos ajudar financeiramente nos nossos momentos juntos pelo mundo! Muito obrigado!
 
-   
+----
+
+#### *To our friends coming from other countries, we know that international travelling is very expensive, so please do not worry about giving us presents. Just by having your presence at our wedding is the best present you could give us. Thank you!*
+
+----
+
+</div>

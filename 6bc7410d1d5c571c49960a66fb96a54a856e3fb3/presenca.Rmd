@@ -5,6 +5,12 @@ site: distill::distill_website
 ----
 
 <style type="text/css">
+.slick-initialized .slick-slide {
+    padding: 0;
+}
+</style>
+
+<style type="text/css">
 h1{
 font-family: Taviraj;
 }
@@ -18,21 +24,35 @@ font-family: Taviraj;
 
 <style type="text/css">
 h3{
+text-align: center;
 font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
 }
 </style>
 
 
 <style type="text/css">
 a{
-font-size: 24px;
+font-size: 17px;
 font-family: Taviraj;
 }
 </style>
 
 <style type="text/css">
+.navbar-fixed-top{
+position: fixed;
+}
+</style>
+
+<style type="text/css">
   .navbar-brand {
-   font-family: Taviraj;
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
     width:100%; /*width of your image*/
     max-width: 100%;
@@ -43,14 +63,40 @@ font-family: Taviraj;
 
 <style type="text/css">
    .title{
-   font-family: Taviraj;
-   font-size: 0px !important;;
+   font-size: 0px !important;
 }
 </style>
 
+<style type="text/css">
+   .my_text{
+   text-align: center;
+   font-family: Taviraj;
+}
+</style>
 
-### Está quase tudo pronto para o casamento de Isabela & Yuri e já estamos na contagem regressiva! 
-### A gente espera que tudo seja sensacional!
-### Para isso, seria excelente se vocês pudessem preencher o formulário Google (link abaixo) confirmando a presença até o dia (a definir)
+<div>
 
+### Por favor, confirme a sua presença e a dos membros de sua família através do formulário Google (link abaixo) até 15 de abril.
 
+</br>
+
+### Ficaremos muito felizes com a sua presença na nossa celebração!
+
+</br>
+
+### [https://forms.gle/KYVbFAnmzT5wFMrNA](https://forms.gle/KYVbFAnmzT5wFMrNA){target="_blank"}
+
+----
+
+#### *Please RSVP and confirm your attendance and that of your family members using the Google form (link below) by April 15th.*
+
+</br>
+
+####  *We will be very happy to have you at our celebration!*
+
+</br>
+
+### [https://forms.gle/KYVbFAnmzT5wFMrNA](https://forms.gle/KYVbFAnmzT5wFMrNA){target="_blank"}
+
+----
+</div>

@@ -1,0 +1,178 @@
+---
+title: "Isabela & Yuri"
+site: distill::distill_website
+---
+----
+
+<style type="text/css">
+.slick-initialized .slick-slide {
+    padding: 0;
+}
+</style>
+
+<style type="text/css">
+h1{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h2{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h3{
+text-align: center;
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
+}
+</style>
+
+
+<style type="text/css">
+a{
+font-size: 17px;
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+.navbar-fixed-top{
+position: fixed;
+}
+</style>
+
+<style type="text/css">
+  .navbar-brand {
+    content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
+    width:100%; /*width of your image*/
+    max-width: 100%;
+   height:auto; /*height of your image*/
+  }
+}
+</style>
+
+<style type="text/css">
+   .title{
+   font-size: 0px !important;
+}
+</style>
+
+
+<div>
+
+
+<style type="text/css">
+p{
+font-size: 23px;
+font-family: Taviraj;
+}
+</style>
+
+
+
+
+### VISA REQUIREMENTS
+
+#### For those coming from abroad to celebrate with us please check your country's visa requirements.
+#### Check this Brazilian consulate general website for a comprehensive list:
+#### [https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country](https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-requirements-by-country){target="_blank"}
+
+#### I seems that applications for visas can only be completed through Brazil’s E-consular platform. 
+#### It is advised to apply for your visa well in advance of your trip in case there are system delays.
+#### [https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-form](https://www.gov.br/mre/pt-br/consulado-atlanta/english/visas/visa-form){target="_blank"}
+
+----
+
+### FLYING IN TO BRAZIL
+
+#### If you are arriving directly to Brasilia, you will arrive at Brasilia President Juscelino Kubitschek International Airport (BSB).
+#### If you are arriving directly to Sao Paulo, you will likely arrive at Guarulhos International Airport (GRU).
+#### You can take a taxi, Uber, or public transportation from the airport to get to the city.
+#### You can use research destination tools such as Expedia, Booking, Skyscanner, Get Your Guide, Trip Advisor, and Google tools (Google Maps have a lot of information as well).
+
+----
+
+###  GETTING AROUND
+
+#### The easiest way around Brazilian cities is Uber. It is an easy way to overcome the challenges of the language barrier.
+#### When requesting an Uber, look at the number of rides a driver has given in their profile. It is recommended to avoid drivers with low numbers of rides. Uber Black drivers tend to meet these criteria better than others, and due to the strength of the US Dollar, it is affordable.
+
+----
+
+###  WORDS ABOUT SECURITY
+
+#### While most have few issues in a city like Brasilia, crime still exists. Here are a few general security things to keep in mind once you leave the airport:
+
+- When traveling through the city, it is recommended to use the buddy system. Traveling with someone else makes you less attractive as a target.
+
+- Especially in busy or touristy areas, be cautious of your belongings. A good practice is to have bags that zip up and keep them in front of you to avoid pick pocketing.
+
+- Smartphones are a desirable target for petty crime due to their size and value. Avoid walking on the street and looking down at your phone, as it makes you vulnerable. To keep you safe, take the simple precautions of walking inside a shop or building if you need to use your phone.
+
+- Common theft schemes include groups, bicycles, and even children. Especially in urban areas, thieves work in groups to misdirect or escape. This can include one distracting you and the other pickpocketing. Someone riding a bicycle may also try to grab your phone, so again, stay away from the street with your phone.
+
+----
+
+###  TRAVELING AROUND BRAZIL
+
+#### If you have the opportunity to stay in Brazil beyond the wedding weekend, a few travel considerations:
+
+1. Flights are the easiest transportation method to travel in this huge country. Flights connect major tourist destinations like Rio de Janeiro, Sao Paulo, Brasilia, and Recife.
+
+2. If you choose to drive, highways in Brazil have speed cameras every so often. If you turn on Waze, they will appear on the maps. It is common for drivers to accelerate after the cameras and brake quickly before them. Please be careful to avoid fines.
+
+3. Ethanol gas is common and cheap in Brazilian gas stations. If you rent a car, make sure your car can accept ethanol fuel.
+
+----
+
+###  SOME NICE DESTINATIONS
+
+#### Brasília (Capital of Brazil)
+#### Designed from scratch to be the capital of Brazil, the city has several architectural buildings. The city has the shape of an airplane, and the government buildings are located in the flight deck.
+More Info: [https://www.tripadvisor.com/Attractions-g303322-Activities-oa0-Brasilia_Federal_District.html](https://www.tripadvisor.com/Attractions-g303322-Activities-oa0-Brasilia_Federal_District.html){target="_blank"}
+
+#### There are many other beautiful places to visit in Brazil.
+#### Rio de Janeiro City
+#### The most famous destination in Brazil, it is approximately 1h flight from São Paulo city. We recommend you to stay in Ipanema or Copacabana neighborhoods. Avoid driving in Rio, unless you will be driving to leave the city. The rich neighborhoods are right next the favelas, which makes it dangerous.
+More Info: [https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html](https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html){target="_blank"}
+
+#### Iguazu Falls
+#### Iguazu Falls are waterfalls of the Iguazu River on the border with Argentina. Those falls are the largest waterfall system in the world.
+#### More Info: [https://www.tripadvisor.com/Attraction_Review-g303444-d312332-Reviews-Iguazu_Falls-Foz_do_Iguacu_State_of_Parana.html](https://www.tripadvisor.com/Attraction_Review-g303444-d312332-Reviews-Iguazu_Falls-Foz_do_Iguacu_State_of_Parana.html){target="_blank"}
+
+#### Capitolio, Minas Gerais State
+#### A place for the ones who enjoy outdoor activities. In order to get there, it is possible to drive from São Paulo or take a flight to Belo Horizonte (Minas Gerais' capital).
+#### More Info: [https://triptripnow.com/ecotourism-brazil-capitolio-minasgerais/](https://triptripnow.com/ecotourism-brazil-capitolio-minasgerais/){target="_blank"}
+
+#### Northeast Beaches of Brazil
+#### Although it is going to be winter in Brazil, the Northeast region is always warm. Most of the beaches there are beautiful, you can research destinations such as:
+
+- Salvador, Bahia state
+
+- Aracaju, Sergipe state
+
+- Maceió, Alagoas state
+
+- Maragogi, Alagoas state
+
+- Recife, Pernambuco state
+
+- Natal, Rio Grande do Norte state
+
+- Fortaleza, Ceará state
+
+- Jericoacoara, Ceará state
+
+#### Since the colonization of Brazil started in the area, besides the beaches, it is possible to sightsee historical buildings and museums. 
+
+</div>

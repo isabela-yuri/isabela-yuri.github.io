@@ -2,8 +2,6 @@
 title: "Isabela & Yuri"
 site: distill::distill_website
 ---
-----
-
 <style type="text/css">
 .slick-initialized .slick-slide {
     padding: 0;
@@ -24,15 +22,24 @@ font-family: Taviraj;
 
 <style type="text/css">
 h3{
+text-align: center;
 font-family: Taviraj;
-</br>
+}
+</style>
+
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
 }
 </style>
 
 
 <style type="text/css">
 a{
-font-size: 24px;
+font-size: 17px;
+font-family: Taviraj;
 }
 </style>
 
@@ -58,23 +65,56 @@ position: fixed;
 }
 </style>
 
+<style type="text/css">
+   .my_text{
+   text-align: center;
+   font-family: Taviraj;
+}
+</style>
 
-<div>
-<br/>
-<br/>
 
-```{r Simon, echo=FALSE, out.width = '100%', fig.align='center'}
+
+```{r echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg")
 ```
 
 
+</br>
+</br>
+</br>
+</br>
+<div>
+
+### Data: 17 de agosto de 2024 - sábado.
+#### *Date: August 17, 2024 - Saturday.*
+
+</br>
+
+### Horário: início da cerimônia às 16:30 – a confirmar.
+#### *Time: ceremony starts at 4:30 pm – to be confirmed.*
+
+</br>
+
+### Local (Location): Clube do Congresso, Lago Norte - Brasília.
+### Endereço: SHIN QI 16 Área Especial -  71530-200.
+#### *Address: SHIN QI 16 Área Especial - 71530-200 - Brasilia, DF, Brazil*
+### Localização no Google Maps/Google Maps localization:
+
+#### [https://maps.app.goo.gl/R18c3zwySMo9rmeP8/](https://maps.app.goo.gl/R18c3zwySMo9rmeP8/){target="_blank"}
+
+</br>
+
+### Traje: Esporte Fino
+#### *Attire: Semi-Formal*
+
+</br>
+
+### Por favor confirme sua presença até dia 15 de abril.
+#### *Please RSVP and confirm your attendance until April 15th.*
+
+</br>
+
+### Se você tiver alguma dúvida, por favor entre em contato conosco.
+#### *If you have any questions, please reach out to us.*
+
 </div>
-
-### Data: 17 de Agosto de 2024 (sábado)
-
-### Local: Clube do Congresso, SHIN QI, 16, Área Especial, Lago Norte, Brasília - DF, 71530-200, Brasil
-
-### Horário: TBD 
-<!-- Entrada a partir das 15:45, início as 16:00 e encerramento as 23:45. -->
-
-### Por favor confirme sua presença até (TBD)!

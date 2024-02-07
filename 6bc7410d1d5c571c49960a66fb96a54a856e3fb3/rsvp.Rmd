@@ -4,6 +4,13 @@ site: distill::distill_website
 ---
 ----
 
+
+<style type="text/css">
+.slick-initialized .slick-slide {
+    padding: 0;
+}
+</style>
+
 <style type="text/css">
 h1{
 font-family: Taviraj;
@@ -18,21 +25,35 @@ font-family: Taviraj;
 
 <style type="text/css">
 h3{
+text-align: center;
 font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
 }
 </style>
 
 
 <style type="text/css">
 a{
-font-size: 24px;
+font-size: 17px;
 font-family: Taviraj;
 }
 </style>
 
 <style type="text/css">
+.navbar-fixed-top{
+position: fixed;
+}
+</style>
+
+<style type="text/css">
   .navbar-brand {
-   font-family: Taviraj;
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura.jpg);
     width:100%; /*width of your image*/
     max-width: 100%;
@@ -43,11 +64,96 @@ font-family: Taviraj;
 
 <style type="text/css">
    .title{
-   font-family: Taviraj;
-   font-size: 0px !important;;
+   font-size: 0px !important;
 }
 </style>
 
-### Almost everything is ready for Isabela & Yuri's wedding and we're already counting down!
-### We hope everything is sensational!
-### For this, it would be excellent if you could fill out the Google form (link below) confirming your presence by the day (to be defined)
+<style type="text/css">
+   .my_text{
+   text-align: center;
+   font-family: Taviraj;
+}
+</style>
+
+<div>
+
+### Nós nos conhecemos em Brasília, em um um ônibus indo para um evento de universitários em 2012 e nos tornamos conhecidos, com amigos em comum.
+
+</br>
+
+### Nossa amizade só se concretizou de verdade em 2014 quando ambos fomos estudar durante um intercâmbio na Universidade de Tsukuba, Japão. Tinhamos aulas de lingua japonesa juntos e a gente se encontrava com frequência na Universidade, nas aulas, e de vez em quando a gente almoçava junto com outros amigos.
+
+</br>
+
+### Após o retorno à Brasília em 2015, nossos interesses e experiências em comum fortaleceram nossa amizade e começamos a nos encontrar com mais frequência. A gente se encontrava principalmente em eventos relaciados ao Japão, por exemplo, em festivais e para ver filmes japoneses.
+
+</br>
+
+### Os encontros nos tornaram cada vez mais próximos e resolvemos oficializar o namoro no início de 2017. Logo tivemos que encarar desafios, como um relacionamento à distancia quando a Isabela voltou ao Japão em abril de 2017 para continuar os estudos após a graduação.
+
+</br>
+
+### Mesmo assim, nosso relacionamento se manteve forte e pudemos nos encontrar em pessoa novamente em setembro de 2017, quando o Yuri também voltou à Universidade de Tsukuba a fim de continuar seus estudos.
+
+</br>
+
+### Desde então, nos tornamos muito próximos e passamos por diversos desafios da vida juntos, desde dividir um lar, estudar para cursos de mestrados e doutorados, viver em países estrangeiros, passar por diferentes empregos, etc. A vida tem sido uma grande aventura juntos, onde passamos por mudanças emocionais, culturais e até geográficas um ao lado do outro.
+
+</br>
+
+### Logo nos primeiros meses quando começamos a morar juntos, já pensamos em nos casar. Desde cedo, tínhamos a certeza de que queríamos passar o resto de nossas vidas unidos. 
+
+</br>
+
+#### Assim, o casamento foi mais uma etapa natural durante o processo das nossas vidas. Esperamos até a conclusão de nossos cursos de doutorado para voltar brevemente ao Brasil e oficializar nossa união em Brasília.
+
+</br>
+
+### Agora, continuamos seguindo essa grande aventura que é a vida a dois!
+
+</br>
+
+### Que venham mais experiências, sonhos, desafios e momentos memoráveis e felizes!
+
+----
+
+#### *We met in Brasília, in a bus going to a university event in 2012 and we became acquaintances, with mutual friends.*
+
+</br>
+
+#### *Our friendship only truly came to fruition in 2014 when we both went to study during an exchange year at the University of Tsukuba, Japan. We had Japanese language classes together and we met often at the University, during classes, and from time to time we would have lunch with other friends.*
+
+</br>
+
+#### *After returning to Brasília in 2015, our common interests and experiences strengthened our friendship, and we began to meet more frequently. We met mainly at events related to Japan, for example, at festivals and to watch Japanese films.*
+
+</br>
+
+#### *With our dates we became increasingly closer, and we decided to make our relationship official at the beginning of 2017. We soon had to face challenges, such as a long-distance relationship when Isabela returned to Japan in April 2017 to continue her studies after graduation.*
+
+</br>
+
+#### *Even so, our relationship remained strong, and we were able to meet in person again in September 2017, when Yuri also returned to the University of Tsukuba to continue his studies.*
+
+</br>
+
+#### *Since then, we have become very close and have gone through many of life's challenges together, from sharing a home, studying for master's and doctorate courses, living in foreign countries, having different jobs, etc. Life has been a great adventure together, where we have experienced both emotional, cultural, and geographical changes alongside each other.*
+
+</br>
+
+#### *Since the first few months when we started sharing our lives as a couple, we already thought about getting married. From then on, we were sure that we wanted to spend the rest of our lives together.*
+
+</br>
+
+#### *So, marriage was another natural step in the process of our lives. We waited until the completion of our doctoral courses to return to Brazil soon and make our union official in Brasilia.*
+
+</br>
+
+#### *Now, we continue following this great adventure that is life together!*
+
+</br>
+
+#### *Here's to more experiences, dreams, challenges, and memorable and happy moments!*
+
+----
+</div>

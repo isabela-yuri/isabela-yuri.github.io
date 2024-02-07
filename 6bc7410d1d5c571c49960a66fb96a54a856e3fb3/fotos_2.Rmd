@@ -31,7 +31,8 @@ font-family: Taviraj;
 
 <style type="text/css">
 a{
-font-size: 24px;
+font-size: 17px;
+font-family: Taviraj;
 }
 </style>
 
@@ -105,35 +106,85 @@ paths2 <- c(
 )
 
 
-slickR(obj=paths0, height = "4%",  objLinks = paths0) +
-  settings(slidesPerRow = 4, slidesToShow = 0,arrows = FALSE,
-adaptiveHeight =TRUE)
+
+slickR(obj = paths0,
+       height = "4%",
+       width = "100%",
+       objLinks = paths0) +
+  settings(
+    slidesPerRow = 4,
+    slidesToShow = 4,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
 
 
-slickR(obj=paths1[1:4], height = "26%", objLinks = paths1[1:4]) +
-  settings(slidesPerRow = 4, slidesToShow = 0,arrows = FALSE,
-adaptiveHeight =TRUE)
+slickR(obj = paths1[1:4],
+       height = "26%",
+       objLinks = paths1[1:4]) +
+  settings(
+    slidesPerRow = 4,
+    slidesToShow = 4,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
 
 
-slickR(obj=paths1[5:8], height = "66%", objLinks = paths1[5:8]) +
-  settings(slidesPerRow = 4, slidesToShow = 0,arrows = FALSE,
-adaptiveHeight =TRUE)
+slickR(obj = paths1[5:8],
+       height = "66%",
+       objLinks = paths1[5:8]) +
+  settings(
+    slidesPerRow = 4,
+    slidesToShow = 4,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
 
-slickR(obj=paths2[1:2], height = "66%", objLinks = paths2[1:2]) +
-  settings(slidesPerRow = 2, slidesToShow = 0, arrows = FALSE,
-adaptiveHeight =TRUE)
-slickR(obj=paths2[3:4], height = "66%", objLinks = paths2[3:4]) +
-  settings(slidesPerRow = 2, slidesToShow = 0, arrows = FALSE,
-adaptiveHeight =TRUE)
-slickR(obj=paths2[5:6], height = "66%", objLinks = paths2[5:6]) +
-  settings(slidesPerRow = 2, slidesToShow = 0, arrows = FALSE,
-adaptiveHeight =TRUE)
-slickR(obj=paths2[7:8], height = "66%", objLinks = paths2[7:8]) +
-  settings(slidesPerRow = 2, slidesToShow = 0, arrows = FALSE,
-adaptiveHeight =TRUE)
-slickR(obj=paths2[9:10], height = "66%", objLinks = paths2[9:10]) +
-  settings(slidesPerRow = 2, slidesToShow = 0, arrows = FALSE,
-adaptiveHeight =TRUE)
+slickR(obj = paths2[1:2],
+       height = "66%",
+       objLinks = paths2[1:2]) +
+  settings(
+    slidesPerRow = 2,
+    slidesToShow = 2,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
+slickR(obj = paths2[3:4],
+       height = "66%",
+       objLinks = paths2[3:4]) +
+  settings(
+    slidesPerRow = 2,
+    slidesToShow = 2,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
+slickR(obj = paths2[5:6],
+       height = "66%",
+       objLinks = paths2[5:6]) +
+  settings(
+    slidesPerRow = 2,
+    slidesToShow = 2,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
+slickR(obj = paths2[7:8],
+       height = "66%",
+       objLinks = paths2[7:8]) +
+  settings(
+    slidesPerRow = 2,
+    slidesToShow = 2,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
+slickR(obj = paths2[9:10],
+       height = "66%",
+       objLinks = paths2[9:10]) +
+  settings(
+    slidesPerRow = 2,
+    slidesToShow = 2,
+    arrows = FALSE,
+    adaptiveHeight = FALSE
+  )
 ```
 </div>
 </div>
