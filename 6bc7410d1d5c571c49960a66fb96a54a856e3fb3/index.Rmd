@@ -83,20 +83,14 @@ knit_hooks$set(pngquant = hook_pngquant)
 
 <div>
 
-<center>
-```{r fig.align='center', echo = FALSE, dpi = 25, optipng = '-o7'}
-image_link <- function(image,url,...){
-  htmltools::a(
-    href=url,
-    htmltools::img(src=image,width='50%',...),
-    target="_blank"
-    )
-}
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg")
+```{r fig.align='center', echo = FALSE, optipng = '-o7', out.width="50%"}
+knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg", dpi = 12)
 ```
-</center>
 
 </br>
+
+
+
 
 ### Data: 17 de agosto de 2024 - sábado.
 #### *Date: August 17, 2024 - Saturday.*

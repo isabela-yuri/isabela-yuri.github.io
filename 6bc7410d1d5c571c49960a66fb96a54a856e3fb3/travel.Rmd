@@ -68,9 +68,6 @@ position: fixed;
 </style>
 
 
-<div>
-
-
 <style type="text/css">
 p{
 font-size: 23px;
@@ -78,7 +75,8 @@ font-family: Taviraj;
 }
 </style>
 
-
+<div>
+<center>
 ### VISA REQUIREMENTS
 
 #### For those coming from abroad to celebrate with us please check your country's visa requirements.
@@ -174,3 +172,4 @@ More Info: [https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_d
 #### Since the colonization of Brazil started in the area, besides the beaches, it is possible to sightsee historical buildings and museums. 
 
 </div>
+</center>

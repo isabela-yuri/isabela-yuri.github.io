@@ -77,7 +77,6 @@ position: fixed;
 
 <div>
 
-
 ### Nós nos casamos oficialmente no dia 05 de abril de 2023 em um cartório de Brasília.
 
 </br>
@@ -98,6 +97,7 @@ position: fixed;
 
 </br>
 
+----
 
 #### *We got married officially on April 5, 2023, at a registry office in Brasília.*
 
@@ -116,5 +116,7 @@ position: fixed;
 </br>
 
 #### *We will be very happy and grateful for your presence at our wedding celebration!*
+
+----
 
 </div>
