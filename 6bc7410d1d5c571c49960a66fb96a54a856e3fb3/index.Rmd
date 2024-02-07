@@ -72,7 +72,7 @@ position: fixed;
 }
 </style>
 
-
+----
 
 ```{r echo=FALSE, out.width = '70%', fig.align='center'}
 knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg")
