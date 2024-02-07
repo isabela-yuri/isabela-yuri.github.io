@@ -2,7 +2,9 @@
 title: "Isabela & Yuri"
 site: distill::distill_website
 ---
+
 ----
+
 <style type="text/css">
 .slick-initialized .slick-slide {
     padding: 0;
@@ -74,7 +76,7 @@ left: 0;
 
 <div class="row">
 <div class="col-12">
-```{r, echo=F}
+```{r, echo=F, out.width='100%'}
 paths0 = c(
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04476.jpg",
   "https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg",

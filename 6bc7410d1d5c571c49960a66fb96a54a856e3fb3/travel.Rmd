@@ -79,8 +79,6 @@ font-family: Taviraj;
 </style>
 
 
-
-
 ### VISA REQUIREMENTS
 
 #### For those coming from abroad to celebrate with us please check your country's visa requirements.
