@@ -78,9 +78,14 @@ position: fixed;
 }
 </style>
 
+```{r, echo = FALSE}
+# Set up the hook
+knit_hooks$set(optipng = hook_optipng)
+knit_hooks$set(pngquant = hook_pngquant)
+```
 
 <center>
-```{r fig.align='center', echo = FALSE}
+```{r fig.align='center', echo = FALSE, cache = TRUE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
