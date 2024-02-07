@@ -4,6 +4,7 @@ library(rmarkdown)
 library(distill)
 library(dplyr)
 library(slickR)
+library(htmltools)
 
 setwd("~/Documents/pessoal/casorio/isabela-yuri.github.io/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/")
 

@@ -72,17 +72,30 @@ position: fixed;
 }
 </style>
 
-----
+<style type="text/css">
+   img{
+   ;
+}
+</style>
 
-```{r echo=FALSE, out.width = '70%', fig.align='center'}
-knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg")
+
+<center>
+```{r fig.align='center', echo = FALSE}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='50%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg")
 ```
+</center>
+<!-- ,width='50%' -->
 
+</br>
+</br>
 
-</br>
-</br>
-</br>
-</br>
 <div>
 
 ### Data: 17 de agosto de 2024 - sábado.
