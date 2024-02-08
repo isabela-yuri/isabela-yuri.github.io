@@ -24,7 +24,6 @@ font-family: Taviraj;
 
 <style type="text/css">
 h3{
-text-align: center;
 font-family: Taviraj;
 }
 </style>
@@ -32,7 +31,6 @@ font-family: Taviraj;
 <style type="text/css">
 h4{
 font-family: Taviraj;
-text-align: center;
 font-size: 23px;
 }
 </style>
@@ -47,7 +45,7 @@ font-family: Taviraj;
 
 <style type="text/css">
 .navbar-fixed-top{
-position: fixed;
+position: absolute;
 }
 </style>
 
@@ -56,6 +54,7 @@ position: fixed;
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura_complete_2.png);
     width:100%; /*width of your image*/
     max-width: 100%;
+    margin-top: -5%;
    height:auto; /*height of your image*/
    padding = 0;
   }
@@ -77,7 +76,7 @@ font-family: Taviraj;
 </style>
 
 <div>
-<center>
+
 ### VISA REQUIREMENTS
 
 #### For those coming from abroad to celebrate with us please check your country's visa requirements.
@@ -173,4 +172,3 @@ More Info: [https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_d
 #### Since the colonization of Brazil started in the area, besides the beaches, it is possible to sightsee historical buildings and museums. 
 
 </div>
-</center>

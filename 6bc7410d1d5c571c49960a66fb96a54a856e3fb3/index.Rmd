@@ -45,8 +45,16 @@ font-family: Taviraj;
 </style>
 
 <style type="text/css">
+href{
+font-size: 23px;
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
 .navbar-fixed-top{
-position: fixed;
+position: absolute;
+z-index: 2;
 }
 </style>
 
@@ -55,6 +63,7 @@ position: fixed;
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura_complete_2.png);
     width:100%; /*width of your image*/
     max-width: 100%;
+    margin-top: -5%;
    height:auto; /*height of your image*/
   }
 }
@@ -92,20 +101,20 @@ knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/
 
 
 
-### Data: 17 de agosto de 2024 - sábado.
-#### *Date: August 17, 2024 - Saturday.*
+### Data: 17 de agosto de 2024 - Sábado
+#### *Date: August 17, 2024 - Saturday*
 
 </br>
 
-### Horário: início da cerimônia às 16:30 – a confirmar.
-#### *Time: ceremony starts at 4:30 pm – to be confirmed.*
+### Horário: início da cerimônia às 16:00 – a confirmar
+#### *Time: ceremony starts at 4:00 pm – to be confirmed*
 
 </br>
 
-### Local (Location): Clube do Congresso, Lago Norte - Brasília.
-### Endereço: SHIN QI 16 Área Especial -  71530-200.
+### Local (*Location*): Clube do Congresso, Lago Norte - Brasília
+### Endereço: SHIN QI 16 Área Especial -  71530-200
 #### *Address: SHIN QI 16 Área Especial - 71530-200 - Brasilia, DF, Brazil*
-### Localização no Google Maps/Google Maps localization:
+### Localização no Google Maps/Google Maps *Location*:
 
 #### [https://maps.app.goo.gl/R18c3zwySMo9rmeP8/](https://maps.app.goo.gl/R18c3zwySMo9rmeP8/){target="_blank"}
 
@@ -116,12 +125,14 @@ knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/
 
 </br>
 
-### Por favor confirme sua presença até dia 15 de abril.
-#### *Please RSVP and confirm your attendance until April 15th.*
+### Por favor confirme sua [presença](https://isabela-yuri.github.io/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/presenca.html) até dia 15 de abril
+
+
+#### *Please RSVP and confirm your [attendance](https://isabela-yuri.github.io/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/presenca.html) until April 15th*
 
 </br>
 
-### Se você tiver alguma dúvida, por favor entre em contato conosco.
-#### *If you have any questions, please reach out to us.*
+### Se você tiver alguma dúvida, por favor entre em contato conosco
+#### *If you have any questions, please reach out to us*
 
 </div>

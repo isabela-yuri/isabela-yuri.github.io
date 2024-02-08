@@ -8,15 +8,15 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Presença/Attendance"
+    - text: "Presença / Attendance"
       href: presenca.html
-    - text: "O Casamento/The Wedding"
+    - text: "O Casamento / The Wedding"
       href: casamento.html
-    - text: "Sobre Nós/Our Story"
+    - text: "Sobre Nós / Our Story"
       href: rsvp.html
-    - text: "Presentes/Gifts"
+    - text: "Presentes / Gifts"
       href: presentes.html
     - text: "Travel"
       href: travel.html
-    - text: "Fotos/Photos"
+    - text: "Fotos / Photos"
       href: fotos_2.html

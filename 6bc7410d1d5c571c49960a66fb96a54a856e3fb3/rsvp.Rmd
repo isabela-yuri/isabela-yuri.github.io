@@ -48,7 +48,7 @@ font-family: Taviraj;
 
 <style type="text/css">
 .navbar-fixed-top{
-position: fixed;
+position: absolute;
 }
 </style>
 
@@ -57,6 +57,7 @@ position: fixed;
     content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura_complete_2.png);
     width:100%; /*width of your image*/
     max-width: 100%;
+    margin-top: -5%;
    height:auto; /*height of your image*/
    padding = 0;
   }
@@ -82,7 +83,7 @@ position: fixed;
 
 </br>
 
-### Nossa amizade só se concretizou de verdade em 2014 quando ambos fomos estudar durante um intercâmbio na Universidade de Tsukuba, Japão. Tinhamos aulas de lingua japonesa juntos e a gente se encontrava com frequência na Universidade, nas aulas, e de vez em quando a gente almoçava junto com outros amigos.
+### Nossa amizade só se concretizou de verdade em 2014 quando ambos fomos estudar durante um intercâmbio na Universidade de Tsukuba, Japão. Tínhamos aulas de língua japonesa juntos e a gente se encontrava com frequência na Universidade, nas aulas, e de vez em quando a gente almoçava junto com outros amigos.
 
 </br>
 
