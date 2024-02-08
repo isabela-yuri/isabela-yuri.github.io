@@ -93,7 +93,6 @@ knit_hooks$set(pngquant = hook_pngquant)
 ```
 
 
-<div>
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
@@ -348,5 +347,3 @@ image_link <- function(image,url,...){
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG")
 ```
 
-
-</div>

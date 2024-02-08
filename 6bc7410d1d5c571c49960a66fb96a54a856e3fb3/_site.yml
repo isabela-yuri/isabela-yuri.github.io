@@ -1,5 +1,5 @@
 html_document:
-  anchor_sections: false
+  anchor_sections: true
 name: "Isabela & Yuri"
 output_dir: "."
 base_url: https://isabela-yuri.github.io
