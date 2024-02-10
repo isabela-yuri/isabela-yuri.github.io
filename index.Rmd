@@ -86,14 +86,16 @@ position: absolute;
 }
 </style>
 
-
+<div>
+</br>
+</div>
 
 
 <div style="width: 100%;  position:relative;">
 <center class="center">
 ```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
-  htmltools::p(
+  htmltools::a(
     href=url,
     htmltools::img(src=image,width='50%',...),
     target="_blank"
@@ -101,7 +103,7 @@ image_link <- function(image,url,...){
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022.jpeg")
 ```
-</center>
+
 </br>
 
 ### Data: 17 de agosto de 2024 - Sábado
