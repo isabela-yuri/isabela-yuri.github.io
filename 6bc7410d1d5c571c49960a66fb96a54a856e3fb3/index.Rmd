@@ -93,15 +93,17 @@ knit_hooks$set(pngquant = hook_pngquant)
 ```
 
 
-
+<div style="width: 100%; float: top;">
 ```{r fig.align='center', echo = FALSE, optipng = '-o7', out.width="50%"}
 knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg", dpi = 12)
 ```
 
-</br>
+</div>
 
 
 
+
+<div style="width: 100%; float: bottom;">
 
 ### Data: 17 de agosto de 2024 - Sábado
 #### *Date: August 17, 2024 - Saturday*
@@ -136,4 +138,4 @@ knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/
 
 ### Se você tiver alguma dúvida, por favor entre em contato conosco
 #### *If you have any questions, please reach out to us*
-
+</div>
