@@ -145,3 +145,4 @@ image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.
 #### *If you have any questions, please reach out to us*
 
 </div>
+</center>
