@@ -3,8 +3,6 @@ title: "Isabela & Yuri"
 site: distill::distill_website
 ---
 
-----
-
 <style type="text/css">
 .slick-initialized .slick-slide {
     padding: 0;
@@ -87,7 +85,11 @@ position: absolute;
 </style>
 
 <div>
+----
 </br>
+
+### Data: 17 de agosto de 2024 - Sábado
+#### *Date: August 17, 2024 - Saturday*
 </div>
 
 
@@ -106,18 +108,8 @@ image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.
 
 </br>
 
-### Data: 17 de agosto de 2024 - Sábado
-#### *Date: August 17, 2024 - Saturday*
-
-</br>
-
 ### Horário: 16:30
 #### *Time: 4:30 pm*
-
-
-
-
-
 
 </br>
 
