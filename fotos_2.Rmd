@@ -97,6 +97,7 @@ z-index: 2;
 
 <div class="imgs" style="width: 100%;">
 
+
 ```{r, echo = FALSE}
 # Set up the hook
 knit_hooks$set(optipng = hook_optipng)

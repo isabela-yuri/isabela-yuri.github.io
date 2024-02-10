@@ -47,6 +47,7 @@ font-family: Taviraj;
 <style type="text/css">
 .navbar-fixed-top{
 position: absolute;
+z-index: 2;
 }
 </style>
 
@@ -76,6 +77,14 @@ position: absolute;
 </style>
 
 <style type="text/css">
+   img{
+   padding: 3px;
+   z-index: 1;
+   position: relative;
+}
+</style>
+
+<style type="text/css">
    .center {
   display: block;
   margin-left: auto;
@@ -84,18 +93,14 @@ position: absolute;
 }
 </style>
 
-<div>
 ----
-</br>
 
-### Data: 17 de agosto de 2024 - Sábado
-#### *Date: August 17, 2024 - Saturday*
-</div>
+
 
 
 <div style="width: 100%;  position:relative;">
 <center class="center">
-```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+```{r fig.align='center', echo = FALSE, optipng = '-o7'}
 image_link <- function(image,url,...){
   htmltools::p(
     href=url,
@@ -105,6 +110,10 @@ image_link <- function(image,url,...){
 }
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022.jpeg")
 ```
+
+### Data: 17 de agosto de 2024 - Sábado
+#### *Date: August 17, 2024 - Saturday*
+</div>
 
 </br>
 
