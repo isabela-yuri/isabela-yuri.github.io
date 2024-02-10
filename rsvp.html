@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Isabela &amp; Yuri</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Casamento de Isabela & Yuri</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="presenca.html">Presença / Attendance</a>
+</li>
+<li>
+  <a href="casamento.html">O Casamento / The Wedding</a>
+</li>
+<li>
+  <a href="rsvp.html">Sobre Nós / Our Story</a>
+</li>
+<li>
+  <a href="presentes.html">Presentes / Gifts</a>
+</li>
+<li>
+  <a href="travel.html">Travel</a>
+</li>
+<li>
+  <a href="fotos_2.html">Fotos / Photos</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Isabela &amp; Yuri</h1>
+
+</div>
+
+
+<style type="text/css">
+.slick-initialized .slick-slide {
+    padding: 0;
+}
+</style>
+<style type="text/css">
+h1{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h2{
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h3{
+text-align: center;
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
+}
+</style>
+<style type="text/css">
+a{
+font-size: 17px;
+font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+.navbar-fixed-top{
+position: absolute;
+z-index: 2;
+}
+</style>
+<style type="text/css">
+  .navbar-brand {
+    content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura_complete_2.png);
+    width:100%; /*width of your image*/
+    max-width: 100%;
+    margin-top: -5%;
+   height:auto; /*height of your image*/
+   padding = 0;
+  }
+}
+</style>
+<style type="text/css">
+   .title{
+   font-size: 0px !important;
+}
+</style>
+<style type="text/css">
+   .my_text{
+   text-align: center;
+   font-family: Taviraj;
+}
+</style>
+<style type="text/css">
+   img{
+   padding: 3px;
+   z-index: 1;
+   position: relative;
+}
+</style>
+<div
+id="nós-nos-conhecemos-em-brasília-em-um-um-ônibus-indo-para-um-evento-de-universitários-em-2012-e-nos-tornamos-conhecidos-com-amigos-em-comum."
+class="section level3">
+<h3>Nós nos conhecemos em Brasília, em um um ônibus indo para um evento
+de universitários em 2012 e nos tornamos conhecidos, com amigos em
+comum.</h3>
+<p></br></p>
+</div>
+<div
+id="nossa-amizade-só-se-concretizou-de-verdade-em-2014-quando-ambos-fomos-estudar-durante-um-intercâmbio-na-universidade-de-tsukuba-japão.-tínhamos-aulas-de-língua-japonesa-juntos-e-a-gente-se-encontrava-com-frequência-na-universidade-nas-aulas-e-de-vez-em-quando-a-gente-almoçava-junto-com-outros-amigos."
+class="section level3">
+<h3>Nossa amizade só se concretizou de verdade em 2014 quando ambos
+fomos estudar durante um intercâmbio na Universidade de Tsukuba, Japão.
+Tínhamos aulas de língua japonesa juntos e a gente se encontrava com
+frequência na Universidade, nas aulas, e de vez em quando a gente
+almoçava junto com outros amigos.</h3>
+<p></br></p>
+</div>
+<div
+id="após-o-retorno-à-brasília-em-2015-nossos-interesses-e-experiências-em-comum-fortaleceram-nossa-amizade-e-começamos-a-nos-encontrar-com-mais-frequência.-a-gente-se-encontrava-principalmente-em-eventos-relaciados-ao-japão-por-exemplo-em-festivais-e-para-ver-filmes-japoneses."
+class="section level3">
+<h3>Após o retorno à Brasília em 2015, nossos interesses e experiências
+em comum fortaleceram nossa amizade e começamos a nos encontrar com mais
+frequência. A gente se encontrava principalmente em eventos relaciados
+ao Japão, por exemplo, em festivais e para ver filmes japoneses.</h3>
+<p></br></p>
+</div>
+<div
+id="os-encontros-nos-tornaram-cada-vez-mais-próximos-e-resolvemos-oficializar-o-namoro-no-início-de-2017.-logo-tivemos-que-encarar-desafios-como-um-relacionamento-à-distancia-quando-a-isabela-voltou-ao-japão-em-abril-de-2017-para-continuar-os-estudos-após-a-graduação."
+class="section level3">
+<h3>Os encontros nos tornaram cada vez mais próximos e resolvemos
+oficializar o namoro no início de 2017. Logo tivemos que encarar
+desafios, como um relacionamento à distancia quando a Isabela voltou ao
+Japão em abril de 2017 para continuar os estudos após a graduação.</h3>
+<p></br></p>
+</div>
+<div
+id="mesmo-assim-nosso-relacionamento-se-manteve-forte-e-pudemos-nos-encontrar-em-pessoa-novamente-em-setembro-de-2017-quando-o-yuri-também-voltou-à-universidade-de-tsukuba-a-fim-de-continuar-seus-estudos."
+class="section level3">
+<h3>Mesmo assim, nosso relacionamento se manteve forte e pudemos nos
+encontrar em pessoa novamente em setembro de 2017, quando o Yuri também
+voltou à Universidade de Tsukuba a fim de continuar seus estudos.</h3>
+<p></br></p>
+</div>
+<div
+id="desde-então-nos-tornamos-muito-próximos-e-passamos-por-diversos-desafios-da-vida-juntos-desde-dividir-um-lar-estudar-para-cursos-de-mestrados-e-doutorados-viver-em-países-estrangeiros-passar-por-diferentes-empregos-etc.-a-vida-tem-sido-uma-grande-aventura-juntos-onde-passamos-por-mudanças-emocionais-culturais-e-até-geográficas-um-ao-lado-do-outro."
+class="section level3">
+<h3>Desde então, nos tornamos muito próximos e passamos por diversos
+desafios da vida juntos, desde dividir um lar, estudar para cursos de
+mestrados e doutorados, viver em países estrangeiros, passar por
+diferentes empregos, etc. A vida tem sido uma grande aventura juntos,
+onde passamos por mudanças emocionais, culturais e até geográficas um ao
+lado do outro.</h3>
+<p></br></p>
+</div>
+<div
+id="logo-nos-primeiros-meses-quando-começamos-a-morar-juntos-já-pensamos-em-nos-casar.-desde-cedo-tínhamos-a-certeza-de-que-queríamos-passar-o-resto-de-nossas-vidas-unidos."
+class="section level3">
+<h3>Logo nos primeiros meses quando começamos a morar juntos, já
+pensamos em nos casar. Desde cedo, tínhamos a certeza de que queríamos
+passar o resto de nossas vidas unidos.</h3>
+<p></br></p>
+<div
+id="assim-o-casamento-foi-mais-uma-etapa-natural-durante-o-processo-das-nossas-vidas.-esperamos-até-a-conclusão-de-nossos-cursos-de-doutorado-para-voltar-brevemente-ao-brasil-e-oficializar-nossa-união-em-brasília."
+class="section level4">
+<h4>Assim, o casamento foi mais uma etapa natural durante o processo das
+nossas vidas. Esperamos até a conclusão de nossos cursos de doutorado
+para voltar brevemente ao Brasil e oficializar nossa união em
+Brasília.</h4>
+<p></br></p>
+</div>
+</div>
+<div
+id="agora-continuamos-seguindo-essa-grande-aventura-que-é-a-vida-a-dois"
+class="section level3">
+<h3>Agora, continuamos seguindo essa grande aventura que é a vida a
+dois!</h3>
+<p></br></p>
+</div>
+<div
+id="que-venham-mais-experiências-sonhos-desafios-e-momentos-memoráveis-e-felizes"
+class="section level3">
+<h3>Que venham mais experiências, sonhos, desafios e momentos memoráveis
+e felizes!</h3>
+<hr />
+<div
+id="we-met-in-brasília-in-a-bus-going-to-a-university-event-in-2012-and-we-became-acquaintances-with-mutual-friends."
+class="section level4">
+<h4><em>We met in Brasília, in a bus going to a university event in 2012
+and we became acquaintances, with mutual friends.</em></h4>
+<p></br></p>
+</div>
+<div
+id="our-friendship-only-truly-came-to-fruition-in-2014-when-we-both-went-to-study-during-an-exchange-year-at-the-university-of-tsukuba-japan.-we-had-japanese-language-classes-together-and-we-met-often-at-the-university-during-classes-and-from-time-to-time-we-would-have-lunch-with-other-friends."
+class="section level4">
+<h4><em>Our friendship only truly came to fruition in 2014 when we both
+went to study during an exchange year at the University of Tsukuba,
+Japan. We had Japanese language classes together and we met often at the
+University, during classes, and from time to time we would have lunch
+with other friends.</em></h4>
+<p></br></p>
+</div>
+<div
+id="after-returning-to-brasília-in-2015-our-common-interests-and-experiences-strengthened-our-friendship-and-we-began-to-meet-more-frequently.-we-met-mainly-at-events-related-to-japan-for-example-at-festivals-and-to-watch-japanese-films."
+class="section level4">
+<h4><em>After returning to Brasília in 2015, our common interests and
+experiences strengthened our friendship, and we began to meet more
+frequently. We met mainly at events related to Japan, for example, at
+festivals and to watch Japanese films.</em></h4>
+<p></br></p>
+</div>
+<div
+id="with-our-dates-we-became-increasingly-closer-and-we-decided-to-make-our-relationship-official-at-the-beginning-of-2017.-we-soon-had-to-face-challenges-such-as-a-long-distance-relationship-when-isabela-returned-to-japan-in-april-2017-to-continue-her-studies-after-graduation."
+class="section level4">
+<h4><em>With our dates we became increasingly closer, and we decided to
+make our relationship official at the beginning of 2017. We soon had to
+face challenges, such as a long-distance relationship when Isabela
+returned to Japan in April 2017 to continue her studies after
+graduation.</em></h4>
+<p></br></p>
+</div>
+<div
+id="even-so-our-relationship-remained-strong-and-we-were-able-to-meet-in-person-again-in-september-2017-when-yuri-also-returned-to-the-university-of-tsukuba-to-continue-his-studies."
+class="section level4">
+<h4><em>Even so, our relationship remained strong, and we were able to
+meet in person again in September 2017, when Yuri also returned to the
+University of Tsukuba to continue his studies.</em></h4>
+<p></br></p>
+</div>
+<div
+id="since-then-we-have-become-very-close-and-have-gone-through-many-of-lifes-challenges-together-from-sharing-a-home-studying-for-masters-and-doctorate-courses-living-in-foreign-countries-having-different-jobs-etc.-life-has-been-a-great-adventure-together-where-we-have-experienced-both-emotional-cultural-and-geographical-changes-alongside-each-other."
+class="section level4">
+<h4><em>Since then, we have become very close and have gone through many
+of life’s challenges together, from sharing a home, studying for
+master’s and doctorate courses, living in foreign countries, having
+different jobs, etc. Life has been a great adventure together, where we
+have experienced both emotional, cultural, and geographical changes
+alongside each other.</em></h4>
+<p></br></p>
+</div>
+<div
+id="since-the-first-few-months-when-we-started-sharing-our-lives-as-a-couple-we-already-thought-about-getting-married.-from-then-on-we-were-sure-that-we-wanted-to-spend-the-rest-of-our-lives-together."
+class="section level4">
+<h4><em>Since the first few months when we started sharing our lives as
+a couple, we already thought about getting married. From then on, we
+were sure that we wanted to spend the rest of our lives
+together.</em></h4>
+<p></br></p>
+</div>
+<div
+id="so-marriage-was-another-natural-step-in-the-process-of-our-lives.-we-waited-until-the-completion-of-our-doctoral-courses-to-return-to-brazil-soon-and-make-our-union-official-in-brasilia."
+class="section level4">
+<h4><em>So, marriage was another natural step in the process of our
+lives. We waited until the completion of our doctoral courses to return
+to Brazil soon and make our union official in Brasilia.</em></h4>
+<p></br></p>
+</div>
+<div
+id="now-we-continue-following-this-great-adventure-that-is-life-together"
+class="section level4">
+<h4><em>Now, we continue following this great adventure that is life
+together!</em></h4>
+<p></br></p>
+</div>
+<div
+id="heres-to-more-experiences-dreams-challenges-and-memorable-and-happy-moments"
+class="section level4">
+<h4><em>Here’s to more experiences, dreams, challenges, and memorable
+and happy moments!</em></h4>
+<hr />
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

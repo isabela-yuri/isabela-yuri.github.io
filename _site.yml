@@ -1,0 +1,22 @@
+html_document:
+  anchor_sections: true
+name: "Isabela & Yuri"
+output_dir: "."
+base_url: https://isabela-yuri.github.io
+navbar:
+  title: "Casamento de Isabela & Yuri"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Presença / Attendance"
+      href: presenca.html
+    - text: "O Casamento / The Wedding"
+      href: casamento.html
+    - text: "Sobre Nós / Our Story"
+      href: rsvp.html
+    - text: "Presentes / Gifts"
+      href: presentes.html
+    - text: "Travel"
+      href: travel.html
+    - text: "Fotos / Photos"
+      href: fotos_2.html

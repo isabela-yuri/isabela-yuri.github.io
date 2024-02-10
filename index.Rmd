@@ -1,0 +1,148 @@
+---
+title: "Isabela & Yuri"
+site: distill::distill_website
+---
+
+<style type="text/css">
+.slick-initialized .slick-slide {
+    padding: 0;
+}
+</style>
+
+<style type="text/css">
+h1{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h2{
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h3{
+text-align: center;
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+h4{
+font-family: Taviraj;
+text-align: center;
+font-size: 23px;
+}
+</style>
+
+
+<style type="text/css">
+a{
+font-size: 17px;
+font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+.navbar-fixed-top{
+position: absolute;
+z-index: 2;
+}
+</style>
+
+<style type="text/css">
+  .navbar-brand {
+    content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura_complete_2.png);
+    width:100%; /*width of your image*/
+    max-width: 100%;
+    margin-top: -5%;
+   height:auto; /*height of your image*/
+   padding = 0;
+  }
+}
+</style>
+
+<style type="text/css">
+   .title{
+   font-size: 0px !important;
+}
+</style>
+
+<style type="text/css">
+   .my_text{
+   text-align: center;
+   font-family: Taviraj;
+}
+</style>
+
+<style type="text/css">
+   img{
+   padding: 3px;
+   z-index: 1;
+   position: relative;
+}
+</style>
+
+
+
+```{r, echo = FALSE}
+# Set up the hook
+knit_hooks$set(optipng = hook_optipng)
+knit_hooks$set(pngquant = hook_pngquant)
+```
+
+
+<div style="width: 100%; float: top;">
+```{r fig.align='center', echo = FALSE, optipng = '-o7', out.width="50%"}
+knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg", dpi = 12)
+```
+
+</div>
+
+
+
+
+<div style="width: 100%; float: bottom;">
+
+### Data: 17 de agosto de 2024 - Sábado
+#### *Date: August 17, 2024 - Saturday*
+
+</br>
+
+### Horário: início da cerimônia às 16:00 – a confirmar
+#### *Time: ceremony starts at 4:00 pm – to be confirmed*
+
+</br>
+
+### Local (*Location*): Clube do Congresso, Lago Norte - Brasília
+### Endereço: SHIN QI 16 Área Especial -  71530-200
+#### *Address: SHIN QI 16 Área Especial - 71530-200 - Brasilia, DF, Brazil*
+### Localização no Google Maps/Google Maps *Location*:
+
+#### [https://maps.app.goo.gl/R18c3zwySMo9rmeP8/](https://maps.app.goo.gl/R18c3zwySMo9rmeP8/){target="_blank"}
+
+
+```{css, echo=FALSE}
+.watch-out {
+  font-size: 240px;
+}
+```
+
+</br>
+
+### Traje: Esporte Fino
+#### *Attire: Semi-Formal*
+
+</br>
+
+### Por favor confirme sua [presença](https://isabela-yuri.github.io/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/presenca.html) até dia 15 de abril
+
+
+#### *Please RSVP and confirm your [attendance](https://isabela-yuri.github.io/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/presenca.html) until April 15th*
+
+</br>
+
+### Se você tiver alguma dúvida, por favor entre em contato conosco
+#### *If you have any questions, please reach out to us*
+</div>
