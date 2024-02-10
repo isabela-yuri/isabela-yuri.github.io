@@ -97,9 +97,9 @@ position: absolute;
 <center class="center">
 ```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
-  htmltools::a(
+  htmltools::p(
     href=url,
-    htmltools::img(src=image,width='50%',...),
+    htmltools::img(src=image,width='70%',...),
     target="_blank"
     )
 }
