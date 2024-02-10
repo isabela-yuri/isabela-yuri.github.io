@@ -84,34 +84,29 @@ z-index: 2;
 }
 </style>
 
+----
 
 
-```{r, echo = FALSE}
-# Set up the hook
-knit_hooks$set(optipng = hook_optipng)
-knit_hooks$set(pngquant = hook_pngquant)
-```
-
-
-<div style="width: 100%; float: top;">
-```{r fig.align='center', echo = FALSE, optipng = '-o7', out.width="50%"}
-knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg", dpi = 12)
-```
-
-</div>
-
-
-
-
-<div style="width: 100%; float: bottom;">
+<div style="width: 100%; float: bottom; position:relative;">
 
 ### Data: 17 de agosto de 2024 - Sábado
 #### *Date: August 17, 2024 - Saturday*
 
 </br>
 
-### Horário: início da cerimônia às 16:00 – a confirmar
-#### *Time: ceremony starts at 4:00 pm – to be confirmed*
+### Horário: 16:30
+#### *Time: 4:30 pm*
+
+
+```{r fig.align='center', echo = FALSE, optipng = '-o7', out.width="50%"}
+# Set up the hook
+knit_hooks$set(optipng = hook_optipng)
+knit_hooks$set(pngquant = hook_pngquant)
+knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04357.jpg", dpi = 12)
+```
+
+
+
 
 </br>
 
@@ -122,12 +117,6 @@ knitr::include_graphics("https://media.githubusercontent.com/media/isabela-yuri/
 
 #### [https://maps.app.goo.gl/R18c3zwySMo9rmeP8/](https://maps.app.goo.gl/R18c3zwySMo9rmeP8/){target="_blank"}
 
-
-```{css, echo=FALSE}
-.watch-out {
-  font-size: 240px;
-}
-```
 
 </br>
 
