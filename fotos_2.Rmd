@@ -92,9 +92,8 @@ knit_hooks$set(optipng = hook_optipng)
 knit_hooks$set(pngquant = hook_pngquant)
 ```
 
-
-
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+# essa foto é de 2020
 image_link <- function(image,url,...){
   htmltools::a(
     href=url,
@@ -102,7 +101,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04476.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04476.jpg")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abr2022","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abr2022")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7', ut.extra='style="margin:20%; display: inline-block;"'}
@@ -113,7 +112,98 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04079.jpg")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022")
+```
+
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+# essa foto é de 2020
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abril2022","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abril2022")
+```
+
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7', ut.extra='style="margin:20%; display: inline-block;"'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abrill2022","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abrill2022")
+```
+
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+# essa foto é de 2020
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/J","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/J")
+```
+
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7', ut.extra='style="margin:20%; display: inline-block;"'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abrill2022","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abrill2022")
+```
+
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+# essa foto é de 2020
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2017","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2017")
+```
+
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7', ut.extra='style="margin:20%; display: inline-block;"'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Setem2017","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Setem2017")
+```
+
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dez2017","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dez2017")
+```
+
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Deze2017","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Deze2017")
 ```
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7', ut.extra='style="margin:20%; display: inline-block;"'}
@@ -124,7 +214,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04554.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC04554.jpg")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezemb2017","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezemb2017")
 ```
 
 
@@ -137,7 +227,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5291.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5291.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezem2017","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezem2017")
 ```
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -148,7 +238,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5573.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5573.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Jan2018","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Jan2018")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -159,7 +249,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5335.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5335.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Jane2018","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Jane2018")
 ```
 
 
@@ -174,7 +264,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5499.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5499.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2018","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2018")
 ```
 
 
@@ -187,7 +277,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5533.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5533.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Nove2018","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Nove2018")
 ```
 
 
@@ -200,7 +290,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5595.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5595.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezem2018","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezem2018")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -211,7 +301,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5676.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5676.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dez2018","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dez2018")
 ```
 
 
@@ -224,7 +314,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5509.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5509.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezemb2018","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezemb2018")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -235,7 +325,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5142.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5142.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2019","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2019")
 ```
 
 
@@ -248,7 +338,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5651.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5651.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Ago2019","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Ago2019")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -259,7 +349,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5212.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5212.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2020","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2020")
 ```
 
 
@@ -272,7 +362,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5325.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5325.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Ago2020","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Ago2020")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -283,7 +373,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5474.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5474.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Deze2021","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Deze2021")
 ```
 
 
@@ -296,7 +386,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5715.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5715.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2022","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2022")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -307,7 +397,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5792.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5792.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Fev2023","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Fev2023")
 ```
 
 
@@ -320,7 +410,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5173.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5173.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2023","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Mar2023")
 ```
 
 ```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
@@ -331,7 +421,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5778.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5778.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Marc2023","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Marc2023")
 ```
 
 
@@ -344,6 +434,40 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/DSC_5797.JPG")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abril2023","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abril2023")
+```
+
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2023","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2023")
+
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Agos2023","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Agos2023")
+```
+
+
+
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2023","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2023")
 ```
 

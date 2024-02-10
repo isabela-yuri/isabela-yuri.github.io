@@ -86,16 +86,6 @@ position: absolute;
 
 
 
-----
-
-<div style="width: 100%;  position:relative; margin=0;">
-
-
-
-
-</div>
-</br>
-</br>
 <div style="width: 100%;  position:relative;">
 <center class="center">
 ```{r fig.align='center', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
