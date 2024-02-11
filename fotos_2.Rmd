@@ -120,6 +120,8 @@ z-index: 2;
 
 <div class="imgs" style="width: 100%;">
 
+### Fotos do noivado / *Engagement's photos*
+
 
 ```{r, echo = FALSE}
 # Set up the hook
@@ -370,6 +372,9 @@ image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.
 
 
 ----
+### Nossos momentos juntos ao longo dos anos / *Our moments together over the years:*
+
+</br>
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 # essa foto é de 2020
@@ -532,8 +537,9 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/buddhatai.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/buddhatai.jpeg")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/buddhatai.jpg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/buddhatai.jpg")
 ```
+
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
