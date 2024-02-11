@@ -53,7 +53,7 @@ z-index: 2;
 
 <style type="text/css">
   .navbar-brand {
-    content:url(https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/imgs/sakura_complete_2.png);
+    content:url("sakura_complete_4.png");
     width:100%; /*width of your image*/
     max-width: 100%;
     margin-top: -5%;
@@ -147,5 +147,6 @@ image_link("Abri2022_2.jpeg","https://media.githubusercontent.com/media/isabela-
 ### Se você tiver alguma dúvida, por favor entre em contato conosco
 #### *If you have any questions, please reach out to us*
 
-</div>
+
 </center>
+</div>
