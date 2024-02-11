@@ -103,6 +103,18 @@ z-index: 2;
 }
 </style>
 
+<style type="text/css">
+  body{
+  padding-top: 18%;
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 768px) {
+    body{
+  padding-top: 40%;
+}
+}
+</style>
 ----
 
 
@@ -501,7 +513,27 @@ image_link <- function(image,url,...){
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dez2018.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dez2018.jpeg")
 ```
 
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Marc2018Kinkakujin.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Marc2018Kinkakujin.jpeg")
+```
 
+```{r fig.align='right', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/buddhatai.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/buddhatai.jpeg")
+```
 
 ```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
 image_link <- function(image,url,...){
@@ -669,5 +701,15 @@ image_link <- function(image,url,...){
 image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2023.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Set2023.jpeg")
 ```
 
+```{r fig.align='left', echo = FALSE, cache = FALSE, dpi = 25, optipng = '-o7'}
+image_link <- function(image,url,...){
+  htmltools::a(
+    href=url,
+    htmltools::img(src=image,width='48%',...),
+    target="_blank"
+    )
+}
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezembro2023.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Dezembro2023.jpeg")
+```
 
 </div>

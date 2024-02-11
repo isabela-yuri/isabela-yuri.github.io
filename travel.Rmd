@@ -23,7 +23,7 @@ font-family: Taviraj;
 
 <style type="text/css">
 h3{
-text-align: center;
+
 font-family: Taviraj;
 }
 </style>
@@ -31,7 +31,7 @@ font-family: Taviraj;
 <style type="text/css">
 h4{
 font-family: Taviraj;
-text-align: center;
+
 font-size: 23px;
 }
 </style>
@@ -103,6 +103,19 @@ z-index: 2;
 }
 </style>
 
+<style type="text/css">
+  body{
+  padding-top: 18%;
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 768px) {
+    body{
+  padding-top: 40%;
+}
+}
+</style>
+
 ----
 
 
@@ -162,24 +175,26 @@ z-index: 2;
 
 ###  SOME NICE DESTINATIONS
 
-#### Brasília (Capital of Brazil)
-#### Designed from scratch to be the capital of Brazil, the city has several architectural buildings. The city has the shape of an airplane, and the government buildings are located in the flight deck.
+#### *Brasília (Capital of Brazil)*
+#### Designed from scratch to be the capital of Brazil, the city has several architectural buildings. The city has the shape of an airplane, and the government buildings are located in the "flight deck".
 More Info: [https://www.tripadvisor.com/Attractions-g303322-Activities-oa0-Brasilia_Federal_District.html](https://www.tripadvisor.com/Attractions-g303322-Activities-oa0-Brasilia_Federal_District.html){target="_blank"}
 
+</br>
+
 #### There are many other beautiful places to visit in Brazil.
-#### Rio de Janeiro City
-#### The most famous destination in Brazil, it is approximately 1h flight from São Paulo city. We recommend you to stay in Ipanema or Copacabana neighborhoods. Avoid driving in Rio, unless you will be driving to leave the city. The rich neighborhoods are right next the favelas, which makes it dangerous.
+#### *Rio de Janeiro City*
+#### The most famous destination in Brazil, it is approximately 1h flight from São Paulo city. We recommend you to stay in Ipanema or Copacabana neighborhoods. Avoid driving in Rio, unless you will be driving to leave the city.
 More Info: [https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html](https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html){target="_blank"}
 
-#### Iguazu Falls
+#### *Iguazu Falls*
 #### Iguazu Falls are waterfalls of the Iguazu River on the border with Argentina. Those falls are the largest waterfall system in the world.
 #### More Info: [https://www.tripadvisor.com/Attraction_Review-g303444-d312332-Reviews-Iguazu_Falls-Foz_do_Iguacu_State_of_Parana.html](https://www.tripadvisor.com/Attraction_Review-g303444-d312332-Reviews-Iguazu_Falls-Foz_do_Iguacu_State_of_Parana.html){target="_blank"}
 
-#### Capitolio, Minas Gerais State
+#### *Capitolio, Minas Gerais State*
 #### A place for the ones who enjoy outdoor activities. In order to get there, it is possible to drive from São Paulo or take a flight to Belo Horizonte (Minas Gerais' capital).
 #### More Info: [https://triptripnow.com/ecotourism-brazil-capitolio-minasgerais/](https://triptripnow.com/ecotourism-brazil-capitolio-minasgerais/){target="_blank"}
 
-#### Northeast Beaches of Brazil
+#### *Northeast Beaches of Brazil*
 #### Although it is going to be winter in Brazil, the Northeast region is always warm. Most of the beaches there are beautiful, you can research destinations such as:
 
 - Salvador, Bahia state
@@ -198,4 +213,4 @@ More Info: [https://www.tripadvisor.com/Attractions-g303506-Activities-oa0-Rio_d
 
 - Jericoacoara, Ceará state
 
-#### Since the colonization of Brazil started in the area, besides the beaches, it is possible to sightsee historical buildings and museums. 
+#### Besides the beaches, it is possible to sightsee historical buildings and museums as well. 

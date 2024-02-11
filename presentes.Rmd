@@ -103,6 +103,19 @@ z-index: 2;
 }
 </style>
 
+<style type="text/css">
+  body{
+  padding-top: 18%;
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 768px) {
+    body{
+  padding-top: 40%;
+}
+}
+</style>
+
 ----
 
 
@@ -111,9 +124,11 @@ z-index: 2;
 ### Como temos que viajar ao Brasil para o casamento e ainda não temos uma moradia fixa, pedimos encarecidamente que evitem presentes em forma de objetos.
 ### Fizemos uma lista com sugestões de presentes e seus valores. Veja a lista neste link:
 
+### [https://forms.gle/2LCohjonpHPiSnf69](https://forms.gle/2LCohjonpHPiSnf69){target="_blank"}
+
 </br>
 
-### O valor presenteado será usado para nos ajudar financeiramente nos nossos momentos juntos pelo mundo! Muito obrigado!
+### O valor presenteado será usado para nos ajudar financeiramente nos nossos momentos juntos! Muito obrigado!
 
 ----
 

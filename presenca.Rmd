@@ -103,29 +103,44 @@ z-index: 2;
 }
 </style>
 
+<style type="text/css">
+  body{
+  padding-top: 18%;
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 768px) {
+    body{
+  padding-top: 40%;
+}
+}
+</style>
+
 ----
 
 
 ### Por favor, confirme a sua presença e a dos membros de sua família através do formulário Google (link abaixo) até 15 de abril.
-
-</br>
-
-### Ficaremos muito felizes com a sua presença na nossa celebração!
+### Por favor, clique no link e para preencher o formulário, é so escrever as sua respostas e depois clicar no botão "Enviar" que aparece no final da página.
 
 </br>
 
 ### [https://forms.gle/KYVbFAnmzT5wFMrNA](https://forms.gle/KYVbFAnmzT5wFMrNA){target="_blank"}
 
+</br>
+
+### Ficaremos muito felizes com a sua presença na nossa celebração!
+
 ----
 
 #### *Please RSVP and confirm your attendance and that of your family members using the Google form (link below) by April 15th.*
-
+#### *Please, click on the link and to fill out the form, write your answers and then click on "Submit", that appears at the bottom of the page.*
 </br>
 
-####  *We will be very happy to have you at our celebration!*
-
-</br>
 
 ### [https://forms.gle/fghVKaSAdP42F5JJ6](https://forms.gle/fghVKaSAdP42F5JJ6){target="_blank"}
+
+</br>
+
+#### *We will be very happy to have you at our celebration!*
 
 ----
