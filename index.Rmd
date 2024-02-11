@@ -108,7 +108,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("Abri2022.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022.jpeg")
+image_link("Abri2022_2.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Abri2022.jpeg")
 ```
 
 ### Data: 17 de agosto de 2024 - Sábado
