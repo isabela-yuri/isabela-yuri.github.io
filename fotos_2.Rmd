@@ -115,6 +115,13 @@ z-index: 2;
 }
 }
 </style>
+<style type="text/css">
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+  body{
+  padding-top: 30%;
+}
+}
+</style>
 ----
 
 
@@ -367,7 +374,7 @@ image_link <- function(image,url,...){
     target="_blank"
     )
 }
-image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Jjunhho2023.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/junhho2023.jpeg")
+image_link("https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Jjunhho2023.jpeg","https://media.githubusercontent.com/media/isabela-yuri/isabela-yuri.github.io/main/6bc7410d1d5c571c49960a66fb96a54a856e3fb3/fotos/Jjunhho2023.jpeg")
 ```
 
 

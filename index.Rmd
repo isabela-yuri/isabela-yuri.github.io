@@ -108,23 +108,22 @@ z-index: 2;
   padding-top: 23%;
 }
 </style>
-<style type="text/css">
-@media only screen and (max-width: 768px) {
-    body{
-  padding-top: 40%;
-}
+
 
 <style type="text/css">
 @media screen and (-webkit-min-device-pixel-ratio:0)
     body{
   padding-top: 30%;
 }
-
-
-}
 </style>
 
-
+<style type="text/css">
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+  body{
+  padding-top: 30%;
+}
+}
+</style>
 
 
 <div style="width: 100%;  position:relative; z-index: 1">

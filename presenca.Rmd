@@ -115,6 +115,13 @@ z-index: 2;
 }
 }
 </style>
+<style type="text/css">
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+  body{
+  padding-top: 30%;
+}
+}
+</style>
 
 ----
 
