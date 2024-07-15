@@ -8,8 +8,6 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Presença / Attendance"
-      href: presenca.html
     - text: "O Casamento / The Wedding"
       href: casamento.html
     - text: "Sobre Nós / Our Story"
